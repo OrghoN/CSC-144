@@ -3,10 +3,7 @@ package vector2d;
 /**
  * This class models a vector in two dimensions.
  *
- * <script
- * type="text/javascript"
- * src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
- * </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
  *
  * <p>
  * Like a length (feet and inches), weight (pounds
@@ -16,7 +13,7 @@ package vector2d;
  * with two parts that can be added.
  * </p>
  *
- * <img src="../../../src/vector2d/Vector2D.png" alt="UML class diagram"/>
+ * <img src="../../../src/vector2d/Vector2D.png" alt="UML class diagram">
  *
  * @author CSC140 Foundations of Computer Science
  * @version 6 March 2013
@@ -138,12 +135,7 @@ public class Vector2D {
     public Vector2D rotateScaleTranslate( double angle, double scaleX,
             double scaleY, double deltaX, double deltaY ) {
 
-        Vector2D v = new Vector2D(this.getX(), this.getY());
-
-        v = this.rotate(angle);
-        v = v.scale(scaleX, scaleY);
-
-        return new Vector2D(v.getX() + deltaX, v.getY() + deltaY);
+        return new Vector2D(this.rotate(angle).scale(scaleX, scaleY).getX() + deltaX, this.rotate(angle).scale(scaleX, scaleY).getY() + deltaY);
     } // rotateScaleTranslate( double, double, double, double, double )
 
     /**
