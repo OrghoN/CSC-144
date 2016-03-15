@@ -3,7 +3,7 @@ package vector2d;
 /**
  * This class models a vector in two dimensions.
  *
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+ * <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
  *
  * <p>
  * Like a length (feet and inches), weight (pounds
@@ -22,6 +22,7 @@ public class Vector2D {
 
     private double x;
     private double y;
+
 
     /**
      * A vector can represent a point.
