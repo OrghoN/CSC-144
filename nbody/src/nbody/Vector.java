@@ -18,35 +18,33 @@ package nbody;
  *  x + y    =  (6.0, 4.0, 7.0, 5.0)
  *  10x      =  (10.0, 20.0, 30.0, 40.0)
  *  |x|      =  5.477225575051661
- *  x . y =
- * 25.0 *  |x - y|  =  5.0990195135927845
+ *  <x, y>   =  25.0
+ *  |x - y|  =  5.0990195135927845
  *
  *  Note that java.util.Vector is an unrelated Java library class.
  *
  ******************************************************************************/
 
-public class Vector {
+public class Vector { 
 
     private final int N;         // length of the vector
     private final double[] data;       // array of vector's components
 
-    /**
-     * @param N length of zero vector
-     */
+    // create the zero vector of length N
     public Vector(int N) {
         this.N = N;
         this.data = new double[N];
     } // Vector( int )
 
-    /**
-     * @param data the array from which the vector is made
-     */
+    // create a vector from an array
     public Vector(double[] data) {
         N = data.length;
 
         // defensive copy so that client can't alter our copy of data[]
         this.data = new double[N];
-        System.arraycopy(data, 0, this.data, 0, N); // for
+        for (int i = 0; i < N; i++) {
+            this.data[i] = data[i];
+        } // for
     } // Vector( double [] )
 
     // create a vector from either an array or a vararg list
@@ -64,106 +62,67 @@ public class Vector {
             this.data[i] = data[i];
     }
 */
-
-    /**
-     * return the length of the vector
-     *
-     * @return length of vector
-     */
+    // return the length of the vector
     public int length() {
         return N;
     } // length()
 
-    /**
-     * return the dot product of this Vector a and b
-     *
-     * @param that second vector
-     * @return dot product
-     */
+    // return the inner product of this Vector a and b
     public double dot(Vector that) {
         if (this.N != that.N) {
             throw new RuntimeException("Dimensions don't agree");
         } // if
-
+        
         double sum = 0.0;
         for (int i = 0; i < N; i++)
             sum = sum + (this.data[i] * that.data[i]);
         return sum;
     } // dot( Vector )
 
-    /**
-     * return the Euclidean norm of this Vector
-     *
-     * @return the Euclidean norm of this Vector
-     */
+    // return the Euclidean norm of this Vector
     public double magnitude() {
         return Math.sqrt(this.dot(this));
     } // magnitude()
 
-    /**
-     * return the Euclidean distance between two vectors
-     *
-     * @param that second vector
-     * @return distance
-     */
+    // return the Euclidean distance between this and that
     public double distanceTo(Vector that) {
         if (this.N != that.N) {
             throw new RuntimeException("Dimensions don't agree");
         } // if
-
+        
         return this.minus(that).magnitude();
     } // distanceTo( Vector )
 
-    /**
-     * return The sum of 2 vectors
-     *
-     * @param that THe second vector
-     * @return The sum of 2 vectors
-     */
+    // return this + that
     public Vector plus(Vector that) {
         if (this.N != that.N) {
             throw new RuntimeException("Dimensions don't agree");
         } // if
-
+        
         Vector c = new Vector(N);
         for (int i = 0; i < N; i++)
             c.data[i] = this.data[i] + that.data[i];
         return c;
     } // plus( Vector )
 
-    /**
-     * return the difference between 2 vectors
-     *
-     * @param that is the second vector
-     * @return the difference
-     */
+    // return this - that
     public Vector minus(Vector that) {
         if (this.N != that.N) {
             throw new RuntimeException("Dimensions don't agree");
         } // if
-
+        
         Vector c = new Vector(N);
         for (int i = 0; i < N; i++)
             c.data[i] = this.data[i] - that.data[i];
         return c;
     } // minus( Vector )
 
-    /**
-     * return the corresponding coordinate
-     *
-     * @param i the dimension of the co-ordinate
-     * @return the corresponding coordinate
-     */
+    // return the corresponding coordinate
     public double cartesian(int i) {
         return data[i];
     } // cartesian( int )
 
-    /**
-     * create and return a new object whose value is (this * factor)
-     *
-     * @param factor the factor by which to multiply
-     * @return a new object whose value is (this * factor)
-     */
+    // create and return a new object whose value is (this * factor)
     public Vector times(double factor) {
         Vector c = new Vector(N);
         for (int i = 0; i < N; i++)
@@ -172,16 +131,12 @@ public class Vector {
     } // times( double )
 
 
-    /**
-     * return the corresponding unit vector
-     *
-     * @return the corresponding unit vector
-     */
+    // return the corresponding unit vector
     public Vector direction() {
         if (this.magnitude() == 0.0) {
             throw new RuntimeException("Zero-vector has no direction");
         } // if
-
+        
         return this.times(1.0 / this.magnitude());
     } // direction()
 
@@ -200,14 +155,8 @@ public class Vector {
 
 
     // test client
-
-    /**
-     * Testing
-     *
-     * @param args testing
-     */
     public static void main(String[] args) {
-        double[] xdata = {1.0, 2.0, 3.0, 4.0};
+        double[] xdata = { 1.0, 2.0, 3.0, 4.0 };
         double[] ydata = { 5.0, 2.0, 4.0, 1.0 };
 
         Vector x = new Vector(xdata);
