@@ -30,9 +30,8 @@ public class Body {
         this.color = color;
     }
 
-    public double[] update(double dt) {
+    public void update(double dt) {
 
-        return new double[]{this.position[0], this.position[1], this.velocity[0], this.velocity[1]};
     }
 
     public double distanceTo(Body b) {
