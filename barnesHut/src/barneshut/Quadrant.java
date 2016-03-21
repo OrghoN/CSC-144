@@ -43,4 +43,33 @@ public class Quadrant {
         Quadrant newQuardant = new Quadrant(new double[]{this.midpoint[0] - this.length / 4.0, this.midpoint[1] - this.length / 4.0}, this.length / 2.0);
         return newQuardant;
     }
+
+    /**
+     * @return the midpoint
+     */
+    public double[] getMidpoint() {
+        return midpoint;
+    }
+
+    /**
+     * @param midpoint the midpoint to set
+     */
+    public void setMidpoint(double[] midpoint) {
+        this.midpoint = midpoint;
+    }
+
+    /**
+     * @return the length
+     */
+    public double getLength() {
+        return length;
+    }
+
+    /**
+     * @param length the length to set
+     */
+    public void setLength(double length) {
+        this.length = length;
+    }
+
 }

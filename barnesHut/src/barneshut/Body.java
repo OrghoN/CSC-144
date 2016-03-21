@@ -88,6 +88,10 @@ public class Body {
         return this.force;
     }
 
+    public boolean in(Quadrant q) {
+        return q.contains(this.position);
+    }
+
     @Override
     public String toString() {
         return this.position[0] + ", " + this.position[1] + ", " + this.velocity[0] + ", " + this.velocity[1] + ", " + this.mass;
