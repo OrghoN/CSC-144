@@ -93,4 +93,74 @@ public class Body {
         return this.position[0] + ", " + this.position[1] + ", " + this.velocity[0] + ", " + this.velocity[1] + ", " + this.mass;
     }
 
+    /**
+     * @return the position
+     */
+    public double[] getPosition() {
+        return position;
+    }
+
+    /**
+     * @param position the position to set
+     */
+    public void setPosition(double[] position) {
+        this.position = position;
+    }
+
+    /**
+     * @return the velocity
+     */
+    public double[] getVelocity() {
+        return velocity;
+    }
+
+    /**
+     * @param velocity the velocity to set
+     */
+    public void setVelocity(double[] velocity) {
+        this.velocity = velocity;
+    }
+
+    /**
+     * @return the force
+     */
+    public double[] getForce() {
+        return force;
+    }
+
+    /**
+     * @param force the force to set
+     */
+    public void setForce(double[] force) {
+        this.force = force;
+    }
+
+    /**
+     * @return the mass
+     */
+    public double getMass() {
+        return mass;
+    }
+
+    /**
+     * @param mass the mass to set
+     */
+    public void setMass(double mass) {
+        this.mass = mass;
+    }
+
+    /**
+     * @return the color
+     */
+    public Color getColor() {
+        return color;
+    }
+
+    /**
+     * @param color the color to set
+     */
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
 }
