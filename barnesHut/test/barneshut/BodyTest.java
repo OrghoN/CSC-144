@@ -72,7 +72,7 @@ public class BodyTest {
         System.out.println("addForce");
         Body b = new Body(new double[]{3.0, 4.0}, new double[]{0.0, 0.0}, 1.98892e30, Color.RED);;
         Body instance = new Body(new double[]{0.0, 0.0}, new double[]{1.0, 0.0}, 1.98892e30, Color.GREEN);;
-        double[] expResult = {1.76E41, 2.36E41};
+        double[] expResult = {1.76E41, 2.346E41};
         double[] result = instance.addForce(b);
         assertEquals(expResult[0], result[0], 1E39);
         assertEquals(expResult[1], result[1], 1E39);

@@ -88,6 +88,12 @@ public class Body {
         return this.force;
     }
 
+    /**
+     * Checks if this body is in a quadrant
+     *
+     * @param q The quadrant to be checked against
+     * @return A boolean reflecting if the body is in the quadrant
+     */
     public boolean in(Quadrant q) {
         return q.contains(this.position);
     }
