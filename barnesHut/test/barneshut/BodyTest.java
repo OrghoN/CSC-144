@@ -28,7 +28,7 @@ public class BodyTest {
     public void testUpdate() {
         System.out.println("update");
         double dt = 5.0;
-        Body instance = a;
+        Body instance = new Body(new double[]{0.0, 0.0}, new double[]{1.0, 0.0}, 1.98892e30, Color.GREEN);;
         instance.update(dt);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
@@ -40,13 +40,13 @@ public class BodyTest {
     @Test
     public void testDistanceTo() {
         System.out.println("distanceTo");
-        Body b = a2;
-        Body instance = a;
+        Body b = new Body(new double[]{3.0, 4.0}, new double[]{0.0, 0.0}, 1.98892e30, Color.RED);;
+        Body instance = new Body(new double[]{0.0, 0.0}, new double[]{1.0, 0.0}, 1.98892e30, Color.GREEN);;
         double expResult = 5.0;
         double result = instance.distanceTo(b);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        fail(expResult + "||" + result);
     }
 
     /**
@@ -55,7 +55,7 @@ public class BodyTest {
     @Test
     public void testResetForce() {
         System.out.println("resetForce");
-        Body instance = a;
+        Body instance = new Body(new double[]{0.0, 0.0}, new double[]{1.0, 0.0}, 1.98892e30, Color.GREEN);;
         double[] expResult = new double[]{0.0, 0.0};
         double[] result = instance.resetForce();
         assertEquals(expResult[0], result[0]);
@@ -70,8 +70,8 @@ public class BodyTest {
     @Test
     public void testAddForce() {
         System.out.println("addForce");
-        Body b = a2;
-        Body instance = a;
+        Body b = new Body(new double[]{3.0, 4.0}, new double[]{0.0, 0.0}, 1.98892e30, Color.RED);;
+        Body instance = new Body(new double[]{0.0, 0.0}, new double[]{1.0, 0.0}, 1.98892e30, Color.GREEN);;
         double[] expResult = {1.76E10, 2.35E10};
         double[] result = instance.addForce(b);
         assertEquals(expResult[0], result[0]);
@@ -86,12 +86,12 @@ public class BodyTest {
     @Test
     public void testToString() {
         System.out.println("toString");
-        Body instance = a;
-        String expResult = "0.0,0.0,1.0,0.0,1.98892e30";
+        Body instance = new Body(new double[]{0.0, 0.0}, new double[]{1.0, 0.0}, 1.98892e30, Color.GREEN);;
+        String expResult = "0.0, 0.0, 1.0, 0.0, 1.98892E30";
         String result = instance.toString();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        fail(expResult + "||" + result);
     }
 
 }
