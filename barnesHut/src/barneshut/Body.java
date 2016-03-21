@@ -23,6 +23,14 @@ public class Body {
     private double mass;
     private Color color;
 
+    /**
+     * Constructor for a new Body object
+     *
+     * @param position the cartesian coordinates of the position [x,y]
+     * @param velocity the velocity components [x,y]
+     * @param mass the mass of the body
+     * @param color the color of the orb drawn
+     */
     public Body(double[] position, double[] velocity, double mass, Color color) {
         this.position = position;
         this.velocity = velocity;
@@ -30,6 +38,11 @@ public class Body {
         this.color = color;
     }
 
+    /**
+     * Update velocity and position of the body
+     *
+     * @param dt the timestamp used
+     */
     public void update(double dt) {
         for (int i = 0; i < this.velocity.length; i++) {
             this.velocity[i] += dt * (this.force[i] / mass);
@@ -37,23 +50,41 @@ public class Body {
         }
     }
 
+    /**
+     * calculate distance between 2 bodies
+     *
+     * @param b the body to which distance is calculated
+     * @return Distance to body b
+     */
     public double distanceTo(Body b) {
         return Math.sqrt((this.position[0] - b.position[0]) * (this.position[0] - b.position[0]) + (this.position[1] - b.position[1]) * (this.position[1] - b.position[1]));
     }
 
+    /**
+     * Resets both components of the force to 0
+     *
+     * @return force acting on body
+     */
     public double[] resetForce() {
         this.force[0] = 0.0;
         this.force[0] = 0.0;
         return this.force;
     }
 
+    /**
+     * add force acting between this and another body and add it to the net
+     * force acting on this body
+     *
+     * @param b the body with regards to which force is calculated
+     * @return force acting on this body
+     */
     public double[] addForce(Body b) {
         double softener = 3E4; //acts as a dampener to prevent infinity values
         double[] distanceVector = {b.position[0] - this.position[0], b.position[1] - this.position[1]};
         double distance = distanceTo(b);
         double F = (G * this.mass * b.mass) / (distance * distance + softener * softener);
         this.force[0] = F * distanceVector[0] / distance;
-        this.force[1] = F * distanceVector[0] / distance;
+        this.force[1] = F * distanceVector[1] / distance;
         return this.force;
     }
 
