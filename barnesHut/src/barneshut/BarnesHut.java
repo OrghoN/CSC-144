@@ -15,8 +15,8 @@ import javax.swing.Timer;
  */
 public class BarnesHut extends JFrame {
 
-    public static final int FRAME_WIDTH = 768;
-    public static final int FRAME_HEIGHT = 768;
+    public static final int FRAME_WIDTH = 700;
+    public static final int FRAME_HEIGHT = 700;
     public static final String TITLE = "NBody SImulation";
 
     public BarnesHut() {
