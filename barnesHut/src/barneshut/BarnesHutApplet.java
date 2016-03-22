@@ -14,7 +14,7 @@ import java.awt.event.*;
  *
  * @author orgho
  */
-public class BarnesHut extends Applet {
+public class BarnesHutApplet extends Applet {
 
     public int N = 100;
     public Body bodies[] = new Body[10000];

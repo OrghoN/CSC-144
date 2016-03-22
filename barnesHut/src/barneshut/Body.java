@@ -81,10 +81,11 @@ public class Body {
     public double[] addForce(Body b) {
         double softener = 3E4; //acts as a dampener to prevent infinity values
         double[] distanceVector = {b.getPosition()[0] - this.position[0], b.getPosition()[1] - this.position[1]};
-        double distance = distanceTo(b);
+        double distance = Math.sqrt(distanceVector[0] * distanceVector[0] + distanceVector[1] * distanceVector[1]);
         double F = (G * this.mass * b.getMass()) / (distance * distance + softener * softener);
         this.force[0] = F * distanceVector[0] / distance;
         this.force[1] = F * distanceVector[1] / distance;
+//        b.setForce(new double[]{F * distanceVector[0] / distance, F * distanceVector[1] / distance});
         return this.force;
     }
 
@@ -99,6 +100,10 @@ public class Body {
     }
 
     public Body add(Body a, Body b) {
+//        double[] p = {(a.getPosition()[0] + b.getPosition()[0]) / 2, (a.getPosition()[1] + b.getPosition()[1]) / 2};
+//        double[] v = {(a.getVelocity()[0] + b.getVelocity()[0]) / 2, (a.getVelocity()[1] + b.getVelocity()[1]) / 2};
+//        return new Body(p, v, (a.getMass() + b.getMass()) / 2, a.getColor());
+
         return a;
     }
 
