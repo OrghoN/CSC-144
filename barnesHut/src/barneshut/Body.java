@@ -80,9 +80,9 @@ public class Body {
      */
     public double[] addForce(Body b) {
         double softener = 3E4; //acts as a dampener to prevent infinity values
-        double[] distanceVector = {b.position[0] - this.position[0], b.position[1] - this.position[1]};
+        double[] distanceVector = {b.getPosition()[0] - this.position[0], b.getPosition()[1] - this.position[1]};
         double distance = distanceTo(b);
-        double F = (G * this.mass * b.mass) / (distance * distance + softener * softener);
+        double F = (G * this.mass * b.getMass()) / (distance * distance + softener * softener);
         this.force[0] = F * distanceVector[0] / distance;
         this.force[1] = F * distanceVector[1] / distance;
         return this.force;
@@ -96,6 +96,10 @@ public class Body {
      */
     public boolean in(Quadrant q) {
         return q.contains(this.position);
+    }
+
+    public Body add(Body a, Body b) {
+        return a;
     }
 
     @Override
