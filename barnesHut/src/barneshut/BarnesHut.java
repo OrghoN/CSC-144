@@ -5,36 +5,66 @@
  */
 package barneshut;
 
-import java.awt.Container;
-import javax.swing.JFrame;
-import javax.swing.Timer;
+import edu.princeton.cs.In;
+import edu.princeton.cs.StdDraw;
+import java.awt.Color;
 
 /**
  *
  * @author orgho
  */
-public class BarnesHut extends JFrame {
-
-    public static final int FRAME_WIDTH = 700;
-    public static final int FRAME_HEIGHT = 700;
-    public static final String TITLE = "NBody SImulation";
-
-    public BarnesHut() {
-        this.setSize(FRAME_WIDTH, FRAME_HEIGHT);
-        this.setTitle(TITLE);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-        Container pane = this.getContentPane();
-        BarnesHutPanel panel = new BarnesHutPanel();
-        Timer timer = new Timer(40, panel);
-        timer.start();
-        pane.add(panel);
-
-        this.setVisible(true);
-
-    }
+public class BarnesHut {
 
     public static void main(String[] args) {
-        BarnesHut barnesHut = new BarnesHut();
+
+        In console = new In(args[0]);
+
+        final double dt = 0.1;
+        int N = console.readInt();
+        double radius = console.readDouble();
+
+        StdDraw.show(0);
+        StdDraw.setXscale(-radius, +radius);
+        StdDraw.setYscale(-radius, +radius);
+
+        Body[] bodies = new Body[N];
+        for (int i = 0; i < N; i++) {
+            double px = console.readDouble();
+            double py = console.readDouble();
+            double vx = console.readDouble();
+            double vy = console.readDouble();
+            double mass = console.readDouble();
+            int red = console.readInt();
+            int green = console.readInt();
+            int blue = console.readInt();
+            Color color = new Color(red, green, blue);
+            bodies[i] = new Body(new double[]{px, py}, new double[]{vx, vy}, mass, color);
+        }
+
+        for (double t = 0.0; true; t = t + dt) {
+
+            Quadrant quad = new Quadrant(new double[]{0, 0}, radius * 2);
+            BHTree tree = new BHTree(quad);
+
+            // build the Barnes-Hut tree
+            for (int i = 0; i < N; i++) {
+                if (bodies[i].in(quad)) {
+                    tree.insert(bodies[i]);
+                }
+            }
+
+            for (int i = 0; i < N; i++) {
+                bodies[i].resetForce();
+                tree.updateForce(bodies[i]);
+                bodies[i].update(dt);
+            }
+
+            StdDraw.clear(StdDraw.BLACK);
+            for (int i = 0; i < N; i++) {
+                bodies[i].draw();
+            }
+
+            StdDraw.show(10);
+        }
     }
 }

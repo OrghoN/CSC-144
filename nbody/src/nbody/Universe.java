@@ -90,7 +90,7 @@ public class Universe {
 
     // client to simulate a universe
     public static void main(String[] args) {
-        Universe newton = new Universe( args[1] );
+        Universe newton = new Universe(args[1]);
         double dt = Double.parseDouble(args[0]);
         while (true) {
             StdDraw.clear();
