@@ -11,6 +11,8 @@ package barneshut;
  */
 public class BHTree {
 
+    private final double THETA = 0.5; // value for Barnes Hut Threshhold
+
     private Body body;
     private Quadrant quad;
     private BHTree NW;
@@ -32,103 +34,60 @@ public class BHTree {
         return (tree.getNW() == null && tree.getNE() == null && tree.getSW() == null && tree.getSE() == null);
     }
 
+    public void putBody(Body b) {
+        if (b.in(quad.NW())) {
+            NW.insert(b);
+        } else if (b.in(quad.NE())) {
+            NE.insert(b);
+        } else if (b.in(quad.SE())) {
+            SE.insert(b);
+        } else if (b.in(quad.SW())) {
+            SW.insert(b);
+        }
+    }
+
     public void insert(Body b) {
         if (this.body == null) {
             this.body = b;
-        } else if (this.isExternal(this) == false) {
-            this.body = this.body.add(b);
-
-            Quadrant northWest = this.quad.NW();
-            if (b.in(northWest)) {
-                if (this.NW == null) {
-                    this.NW = new BHTree(northWest);
-                }
-                NW.insert(b);
-            } else {
-                Quadrant northEast = this.quad.NE();
-                if (b.in(northEast)) {
-                    if (this.NE == null) {
-                        this.NE = new BHTree(northEast);
-                    }
-                    NE.insert(b);
-                } else {
-                    Quadrant southEast = this.quad.SE();
-                    if (b.in(southEast)) {
-                        if (this.SE == null) {
-                            this.SE = new BHTree(southEast);
-                        }
-                        SE.insert(b);
-                    } else {
-                        Quadrant southWest = this.quad.SW();
-                        if (b.in(southWest)) {
-                            if (this.SW == null) {
-                                this.SW = new BHTree(southWest);
-                            }
-                            SW.insert(b);
-                        }
-                    }
-                }
-            }
-
-        } else if (this.isExternal(this)) {
-            Body c = this.body;
-
-            Quadrant northWest = this.quad.NW();
-            if (c.in(northWest)) {
-                if (this.NW == null) {
-                    this.NW = new BHTree(northWest);
-                }
-                NW.insert(c);
-            } else {
-                Quadrant northEast = this.quad.NE();
-                if (c.in(northEast)) {
-                    if (this.NE == null) {
-                        this.NE = new BHTree(northEast);
-                    }
-                    NE.insert(c);
-                } else {
-                    Quadrant southWest = this.quad.SW();
-                    if (c.in(southWest)) {
-                        if (this.SW == null) {
-                            this.SW = new BHTree(southWest);
-                        }
-                        SW.insert(c);
-                    } else {
-                        Quadrant southEast = this.quad.SE();
-                        if (c.in(southEast)) {
-                            if (this.SE == null) {
-                                this.SE = new BHTree(southEast);
-                            }
-                            SE.insert(c);
-                        }
-                    }
-                }
-            }
-
-            this.insert(b);
+            return;
         }
 
+        if (!this.isExternal(this)) {
+            this.body = this.body.add(b);
+            this.putBody(b);
+        } else {
+            this.NW = new BHTree(this.quad.NW());
+            this.NE = new BHTree(this.quad.NE());
+            this.SE = new BHTree(this.quad.SE());
+            this.SW = new BHTree(this.quad.SW());
+
+            //recursively insert both bodies
+            putBody(this.body);
+            putBody(b);
+
+            //update center of mass and mass
+            this.body = this.body.add(b);
+        }
     }
 
     public void updateForce(Body b) {
+        if (this.body == null || b.equals(this.body)) {
+            return;
+        }
+
         if (this.isExternal(this)) {
-            if (this.body != b) {
-                b.addForce(this.body);
-            }
-        } else if (this.quad.getLength() / this.body.distanceTo(b) < 2) {
             b.addForce(this.body);
         } else {
-            if (this.NW != null) {
-                this.NW.updateForce(b);
-            }
-            if (this.NE != null) {
-                this.NE.updateForce(b);
-            }
-            if (this.SW != null) {
-                this.SW.updateForce(b);
-            }
-            if (this.SE != null) {
-                this.SE.updateForce(b);
+            double s = this.quad.getLength();
+            double d = this.body.distanceTo(b);
+
+            if (s / d < THETA) {
+                b.addForce(this.body);
+            } else {
+                NW.updateForce(b);
+                NE.updateForce(b);
+                SW.updateForce(b);
+                SE.updateForce(b);
             }
         }
 
