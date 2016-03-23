@@ -67,7 +67,7 @@ public class Body {
      */
     public double[] resetForce() {
         this.force[0] = 0.0;
-        this.force[0] = 0.0;
+        this.force[1] = 0.0;
         return this.force;
     }
 
@@ -99,12 +99,11 @@ public class Body {
         return q.contains(this.position);
     }
 
-    public Body add(Body a, Body b) {
-//        double[] p = {(a.getPosition()[0] + b.getPosition()[0]) / 2, (a.getPosition()[1] + b.getPosition()[1]) / 2};
-//        double[] v = {(a.getVelocity()[0] + b.getVelocity()[0]) / 2, (a.getVelocity()[1] + b.getVelocity()[1]) / 2};
-//        return new Body(p, v, (a.getMass() + b.getMass()) / 2, a.getColor());
+    public Body add(Body b) {
+        double m = this.mass + b.getMass();
+        double[] p = {(this.getPosition()[0] * this.getMass() + b.getPosition()[0] * b.getMass()) / m, (this.getPosition()[1] * this.getMass() + b.getPosition()[1] * b.getMass()) / m};
+        return new Body(p, new double[]{this.getVelocity()[0], b.getVelocity()[0]}, m, this.getColor());
 
-        return a;
     }
 
     @Override

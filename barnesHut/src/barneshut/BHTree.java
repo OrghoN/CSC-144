@@ -36,7 +36,7 @@ public class BHTree {
         if (this.body == null) {
             this.body = b;
         } else if (this.isExternal(this) == false) {
-            this.body = b.add(this.body, b);
+            this.body = this.body.add(b);
 
             Quadrant northWest = this.quad.NW();
             if (b.in(northWest)) {
