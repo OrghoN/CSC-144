@@ -100,10 +100,10 @@ public class BarnesHutApplet extends Applet {
             int blue = 255;
             int green = (int) Math.floor(mass * 254 / (solarmass * 10 + 1e20));
             Color color = new Color(red, green, blue);
-            bodies[i] = new Body(new double[]{px, py}, new double[]{0, 0}, mass, color);
+            bodies[i] = new Body(new double[]{px, py}, new double[]{vx, vy}, mass, color);
         }
         bodies[0] = new Body(new double[]{0, 0}, new double[]{0, 0}, 1e6 * solarmass, Color.red);//put a heavy body in the center
-        bodies[1] = new Body(new double[]{1e18 * exp(-1.8) * (0.99), 1e18 * exp(-1.8) * (.5 - Math.random())}, new double[]{0, 0}, 1e6 * solarmass, Color.green);
+//        bodies[1] = new Body(new double[]{1e18 * exp(-1.8) * (0.99), 1e18 * exp(-1.8) * (.5 - Math.random())}, new double[]{0, 0}, 1e6 * solarmass, Color.green);
     }
     //The BH algorithm: calculate the forces
 

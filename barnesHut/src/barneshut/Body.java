@@ -5,6 +5,7 @@
  */
 package barneshut;
 
+import edu.princeton.cs.StdDraw;
 import java.awt.Color;
 
 /**
@@ -104,6 +105,11 @@ public class Body {
         double[] p = {(this.getPosition()[0] * this.getMass() + b.getPosition()[0] * b.getMass()) / m, (this.getPosition()[1] * this.getMass() + b.getPosition()[1] * b.getMass()) / m};
         return new Body(p, new double[]{this.getVelocity()[0], b.getVelocity()[0]}, m, this.getColor());
 
+    }
+
+    public void draw() {
+        StdDraw.setPenColor(this.color);
+        StdDraw.point(this.position[0], this.position[1]);
     }
 
     @Override
