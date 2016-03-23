@@ -5,6 +5,8 @@
  */
 package barneshut;
 
+import edu.princeton.cs.StdDraw;
+
 /**
  *
  * @author orgho
@@ -33,7 +35,6 @@ public class Quadrant {
      */
     public boolean contains(double[] point) {
         return (point[0] <= this.midpoint[0] + this.length / 2.0 && point[0] >= this.midpoint[0] - this.length / 2.0 && point[1] <= this.midpoint[1] + this.length / 2.0 && point[1] >= this.midpoint[1] - this.length / 2.0);
-
     }
 
     /**
@@ -74,6 +75,10 @@ public class Quadrant {
     public Quadrant SW() {
         Quadrant newQuardant = new Quadrant(new double[]{this.midpoint[0] - this.length / 4.0, this.midpoint[1] - this.length / 4.0}, this.length / 2.0);
         return newQuardant;
+    }
+
+    public void draw() {
+        StdDraw.rectangle(this.midpoint[0], this.midpoint[1], this.length / 2, this.length / 2);
     }
 
     /**
