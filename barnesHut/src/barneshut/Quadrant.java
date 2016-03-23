@@ -23,7 +23,7 @@ public class Quadrant {
      * @param length The length of the Quadrant
      */
     public Quadrant(double[] midpoint, double length) {
-        this.midpoint = midpoint;
+        this.midpoint = midpoint.clone();
         this.length = length;
     }
 
@@ -92,7 +92,7 @@ public class Quadrant {
      * @param midpoint the midpoint to set
      */
     public void setMidpoint(double[] midpoint) {
-        this.midpoint = midpoint;
+        this.midpoint = midpoint.clone();
     }
 
     /**

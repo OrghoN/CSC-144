@@ -33,8 +33,8 @@ public class Body {
      * @param color the color of the orb drawn
      */
     public Body(double[] position, double[] velocity, double mass, Color color) {
-        this.position = position;
-        this.velocity = velocity;
+        this.position = position.clone();
+        this.velocity = velocity.clone();
         this.mass = mass;
         this.color = color;
     }
@@ -45,10 +45,10 @@ public class Body {
      * @param dt the timestamp used
      */
     public void update(double dt) {
-        for (int i = 0; i < this.velocity.length; i++) {
-            this.velocity[i] += dt * (this.force[i] / mass);
-            this.position[i] += dt * this.velocity[i];
-        }
+        this.velocity[0] += dt * (this.force[0] / this.mass);
+        this.velocity[1] += dt * (this.force[1] / this.mass);
+        this.position[0] += dt * this.velocity[0];
+        this.position[1] += dt * this.velocity[1];
     }
 
     /**
@@ -58,7 +58,9 @@ public class Body {
      * @return Distance to body b
      */
     public double distanceTo(Body b) {
-        return Math.sqrt((this.position[0] - b.position[0]) * (this.position[0] - b.position[0]) + (this.position[1] - b.position[1]) * (this.position[1] - b.position[1]));
+        double distanceX = (this.position[0] - b.position[0]);
+        double distanceY = (this.position[1] - b.position[1]);
+        return Math.sqrt(distanceX * distanceX + distanceY * distanceY);
     }
 
     /**
@@ -81,11 +83,12 @@ public class Body {
      */
     public double[] addForce(Body b) {
         double softener = 3E4; //acts as a dampener to prevent infinity values
-        double[] distanceVector = {b.getPosition()[0] - this.position[0], b.getPosition()[1] - this.position[1]};
-        double distance = Math.sqrt(distanceVector[0] * distanceVector[0] + distanceVector[1] * distanceVector[1]);
+        double distanceX = b.getPosition()[0] - this.position[0];
+        double distanceY = b.getPosition()[1] - this.position[1];
+        double distance = Math.sqrt(distanceX * distanceX + distanceY * distanceY);
         double F = (G * this.mass * b.getMass()) / (distance * distance + softener * softener);
-        this.force[0] = F * distanceVector[0] / distance;
-        this.force[1] = F * distanceVector[1] / distance;
+        this.force[0] += F * distanceX / distance;
+        this.force[1] += F * distanceY / distance;
 //        b.setForce(new double[]{F * distanceVector[0] / distance, F * distanceVector[1] / distance});
         return this.force;
     }
