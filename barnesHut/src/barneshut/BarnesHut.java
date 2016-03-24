@@ -17,10 +17,12 @@ public class BarnesHut {
 
     public static void main(String[] args) {
 
-//        In console = new In(args[1]);
 //        final double dt = Double.parseDouble(args[0]);
-        In console = new In("galaxy3.txt");
+//        final double PLANET_SIZE = Double.parseDouble(args[1]);
+//        In console = new In(args[2]);
         final double dt = 0.1;
+        final double PLANET_SIZE = 0.004;
+        In console = new In("galaxy3.txt");
 
         int N = console.readInt();
         double radius = console.readDouble();
@@ -63,7 +65,7 @@ public class BarnesHut {
 
             StdDraw.clear(StdDraw.BLACK);
             for (int i = 0; i < N; i++) {
-                bodies[i].draw();
+                bodies[i].draw(PLANET_SIZE);
             }
 
             StdDraw.show(10);

@@ -115,6 +115,12 @@ public class Body {
         StdDraw.point(this.position[0], this.position[1]);
     }
 
+    public void draw(double radius) {
+        StdDraw.setPenRadius(radius);
+        StdDraw.setPenColor(this.color);
+        StdDraw.point(this.position[0], this.position[1]);
+    }
+
     @Override
     public String toString() {
         return this.position[0] + ", " + this.position[1] + ", " + this.velocity[0] + ", " + this.velocity[1] + ", " + this.mass;
