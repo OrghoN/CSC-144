@@ -17,9 +17,11 @@ public class BarnesHut {
 
     public static void main(String[] args) {
 
-        In console = new In(args[0]);
-
+//        In console = new In(args[1]);
+//        final double dt = Double.parseDouble(args[0]);
+        In console = new In("galaxy3.txt");
         final double dt = 0.1;
+
         int N = console.readInt();
         double radius = console.readDouble();
 
