@@ -10,11 +10,19 @@ import edu.princeton.cs.StdDraw;
 import java.awt.Color;
 
 /**
+ * A Class that simulates the universe using a barnes hut tree
  *
  * @author orgho
  */
 public class BarnesHut {
 
+    /**
+     * Draws the actual universe
+     *
+     * @param args[0] The rate at which time progresses in the universe
+     * @param args[1] The size of the planets
+     * @param args[2] The Text File Describing the sequence of planets
+     */
     public static void main(String[] args) {
 
 //        final double dt = Double.parseDouble(args[0]);

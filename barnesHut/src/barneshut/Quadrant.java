@@ -77,6 +77,9 @@ public class Quadrant {
         return newQuardant;
     }
 
+    /**
+     * It draws a rectangle that represents the quadrant
+     */
     public void draw() {
         StdDraw.rectangle(this.midpoint[0], this.midpoint[1], this.length / 2, this.length / 2);
     }

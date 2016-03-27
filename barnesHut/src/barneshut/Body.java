@@ -103,6 +103,14 @@ public class Body {
         return q.contains(this.position);
     }
 
+    /**
+     * Returns a new Body object that represents the center-of-mass of the
+     * invoking body and b.
+     *
+     * @param b the body to combine with this body
+     * @return a body that has the combined mass and appropriate center of
+     * gravity
+     */
     public Body add(Body b) {
         double m = this.mass + b.getMass();
         double[] p = {(this.getPosition()[0] * this.getMass() + b.getPosition()[0] * b.getMass()) / m, (this.getPosition()[1] * this.getMass() + b.getPosition()[1] * b.getMass()) / m};
@@ -110,11 +118,19 @@ public class Body {
 
     }
 
+    /**
+     * Draws the body based on default pen size
+     */
     public void draw() {
         StdDraw.setPenColor(this.color);
         StdDraw.point(this.position[0], this.position[1]);
     }
 
+    /**
+     * Draws the body allowing different pen sizes
+     *
+     * @param radius radius of the pen
+     */
     public void draw(double radius) {
         StdDraw.setPenRadius(radius);
         StdDraw.setPenColor(this.color);

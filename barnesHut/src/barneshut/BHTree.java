@@ -20,6 +20,11 @@ public class BHTree {
     private BHTree SW;
     private BHTree SE;
 
+    /**
+     * Creates a Barnes Hut tree based on a quadrant
+     *
+     * @param q the initial quadrant for tree
+     */
     public BHTree(Quadrant q) {
         this.quad = q;
         this.body = null;
@@ -30,10 +35,21 @@ public class BHTree {
 
     }
 
+    /**
+     * Checks whether the tree is external or internal
+     *
+     * @param tree tree to check
+     * @return true if external and false if not
+     */
     public Boolean isExternal(BHTree tree) {
         return (tree.getNW() == null && tree.getNE() == null && tree.getSW() == null && tree.getSE() == null);
     }
 
+    /**
+     * Inserts a body into the appropriate quadrant
+     *
+     * @param b the body to be inserted
+     */
     public void putBody(Body b) {
         if (b.in(quad.NW())) {
             NW.insert(b);
@@ -46,6 +62,11 @@ public class BHTree {
         }
     }
 
+    /**
+     * Add body to appropriate quadrant in the tree
+     *
+     * @param b body to be inserted
+     */
     public void insert(Body b) {
         if (this.body == null) {
             this.body = b;
@@ -70,6 +91,11 @@ public class BHTree {
         }
     }
 
+    /**
+     * Approximates the net force acting on Body from all bodies
+     *
+     * @param b the body on which forces are calculated
+     */
     public void updateForce(Body b) {
         if (this.body == null || b.equals(this.body)) {
             return;
