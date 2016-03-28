@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="shading">
+  <ClassDiagramComponents>
+    <Class name="Shading" package="shading" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="FRAME_WIDTH" type="int" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="FRAME_HEIGHT" type="int" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="FRAME_TITLE" type="String" visibility="private" isStatic="true" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Vector3D" package="shading" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="x" type="double" visibility="private" isFinal="true"/>
+        <Field name="y" type="double" visibility="private" isFinal="true"/>
+        <Field name="z" type="double" visibility="private" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="double" name="x"/>
+          <Argument type="double" name="y"/>
+          <Argument type="double" name="z"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getX" returnType="double" visibility="public"/>
+        <Method name="getY" returnType="double" visibility="public"/>
+        <Method name="getZ" returnType="double" visibility="public"/>
+        <Method name="add" returnType="Vector3D" visibility="public">
+          <Argument type="Vector3D" name="v"/>
+        </Method>
+        <Method name="subtract" returnType="Vector3D" visibility="public">
+          <Argument type="Vector3D" name="v"/>
+        </Method>
+        <Method name="scale" returnType="Vector3D" visibility="public">
+          <Argument type="double" name="s"/>
+        </Method>
+        <Method name="dot" returnType="double" visibility="public">
+          <Argument type="Vector3D" name="v"/>
+        </Method>
+        <Method name="magnitude" returnType="double" visibility="public"/>
+        <Method name="normalize" returnType="Vector3D" visibility="public"/>
+        <Method name="cross" returnType="Vector3D" visibility="public">
+          <Argument type="Vector3D" name="v"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="ShadingPanel" package="shading" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="BG_COLOR" type="Color" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="RED" type="int" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="GREEN" type="int" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="BLUE" type="int" visibility="private" isStatic="true" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="paintComponent" returnType="void" visibility="public">
+          <Argument type="Graphics" name="g"/>
+        </Method>
+        <Method name="makeTriangles" returnType="List&lt;Triangle&gt;" visibility="private"/>
+      </Methods>
+    </Class>
+    <Class name="Triangle" package="shading" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="RECURSION_LIMIT" type="double" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="p0" type="Vector3D" visibility="private" isFinal="true"/>
+        <Field name="p1" type="Vector3D" visibility="private" isFinal="true"/>
+        <Field name="p2" type="Vector3D" visibility="private" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Vector3D" name="p0"/>
+          <Argument type="Vector3D" name="p1"/>
+          <Argument type="Vector3D" name="p2"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="subdivide" returnType="List&lt;Triangle&gt;" visibility="public"/>
+        <Method name="subdivide" returnType="List&lt;Triangle&gt;" visibility="public">
+          <Argument type="int" name="recursionCount"/>
+        </Method>
+        <Method name="subdivide" returnType="List&lt;Triangle&gt;" visibility="public">
+          <Argument type="List&lt;Triangle&gt;" name="triangles"/>
+          <Argument type="int" name="recursionCount"/>
+        </Method>
+        <Method name="getSize" returnType="double" visibility="public"/>
+        <Method name="getNormal" returnType="Vector3D" visibility="public"/>
+        <Method name="getShape" returnType="Shape" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="shading.ShadingPanel" target="shading.Triangle" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="p2" source="shading.Triangle" target="shading.Vector3D" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="shading.Triangle" target="shading.Vector3D" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="p1" source="shading.Triangle" target="shading.Vector3D" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="p0" source="shading.Triangle" target="shading.Vector3D" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="shading.Triangle" target="shading.Triangle" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="shading.Vector3D" target="shading.Vector3D" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

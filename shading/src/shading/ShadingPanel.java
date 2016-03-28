@@ -43,14 +43,13 @@ public class ShadingPanel extends JPanel {
 
         for (Triangle t : makeTriangles()) {
             double dotProduct = t.getNormal().dot(illumination);
-            if( dotProduct < 0.0 ) {
+            if (dotProduct < 0.0) {
                 dotProduct = 0.0;
             } // if
-            
+
             int redValue = (int) (RED * dotProduct);
             int greenValue = (int) (GREEN * dotProduct);
             int blueValue = (int) (BLUE * dotProduct);
-          
 
             Color color = new Color(redValue, greenValue, blueValue);
             g2D.setColor(color);
