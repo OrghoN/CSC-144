@@ -40,3 +40,4 @@ Complete the unit tests for the methods of the Vector3D class by editing Vector3
 https://github.com/OrghoN/CSC-144/blob/master/shading/test/shading/Vector3DTest.java
 
 (Challenge problem) Modify the program so that it draws a different kind of curved surface.
+https://github.com/OrghoN/CSC-144/blob/master/shading/src/shading/ShadingPanel.java
