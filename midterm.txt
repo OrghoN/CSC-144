@@ -1,4 +1,4 @@
-1)The program makes use of several classes and interfaces that belong to the Java API. Identify these classes and interfaces. For what purposes are they used in this program?
+The program makes use of several classes and interfaces that belong to the Java API. Identify these classes and interfaces. For what purposes are they used in this program?
 Some Classes belonging to the Java API used in this program are:
 GeneralPath- Represents a geometric path constructed from straight lines and curves. Used to create the shape of a triangle.
 LinkedList-The implementation of a linked list. Used to hold the list of triangles being shown.
@@ -18,12 +18,24 @@ Recursion is used in the function Subdivide to subdivide triangles further.
 
 The program defines a vector that specifies the direction to a source of light. Changing the x, y, and z elements of this vector will change the shading of the sphere. What is the name of this vector?
 illumination
+
 The program defines a constant that specifies the fineness of the mesh of triangles that the program draws. What is the name of this constant?
 RECURSION_LIMIT
+
 The program draws triangles that have different brightnesses but all have the same hue. What are the names of the constants whose values you must change to get a different hue?
 RED, GREEN, BLUE
+
 The program computes the brightness of each triangle with operations on vectors. What are these operations?
+dotProduct
+
 Look at the toString() method in the Vector3D class. It calls the format() method of the String class. This method is probably unfamiliar to you. By experimentation and by reading on the Web learn how it works, then explain as clearly and concisely as you can.
+The format() works a lot like printf in most other languages. The first argument is the string to be formatted with certain placeholders that show what type of data will be put into that place. All other arguments replace the placeholders with the argument provided. The first argument goes to eh zeroth placeholder, teh second to the first and so on. For example:
+String.format("%s is %d years old, er, young", "Al", 45) ); will return "Al is 45 years old, er, young"
+The %s signifies string %d signifies decimal value. Format is used mostly to have to avoid string concatenation for outputting.
+
 Compose a UML class diagram to describe the Vector3D class.
+https://github.com/OrghoN/CSC-144/blob/master/shadingDiagram/UMLClassDiagram.png
+
 Complete the unit tests for the methods of the Vector3D class by editing Vector3DTest.java.
+
 (Challenge problem) Modify the program so that it draws a different kind of curved surface.
