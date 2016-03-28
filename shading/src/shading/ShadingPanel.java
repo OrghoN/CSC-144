@@ -11,10 +11,10 @@ import javax.swing.JPanel;
 
 public class ShadingPanel extends JPanel {
 
-    private static final Color BG_COLOR = new Color(172, 224, 180);
-    private static final int RED = 180;
-    private static final int GREEN = 192;
-    private static final int BLUE = 248;
+    private static final Color BG_COLOR = new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255));
+    private static final int RED = (int) (Math.random() * 255);
+    private static final int GREEN = (int) (Math.random() * 255);
+    private static final int BLUE = (int) (Math.random() * 255);
 
     public ShadingPanel() {
         this.setBackground(BG_COLOR);
@@ -38,7 +38,7 @@ public class ShadingPanel extends JPanel {
         transform.concatenate(scale);
         transform.concatenate(translate);
 
-        Vector3D illumination = new Vector3D(-1.0, 2.0, 3.0);
+        Vector3D illumination = new Vector3D(Math.random() * 3, Math.random() * 3, Math.random() * 3);
         illumination = illumination.normalize();
 
         for (Triangle t : makeTriangles()) {
@@ -73,7 +73,7 @@ public class ShadingPanel extends JPanel {
 
         x = 0.0;
         y = 1.0;
-        z = -5;
+        z = -0;
         Vector3D north = new Vector3D(x, y, z);
 
         x = 1.0;
