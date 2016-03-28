@@ -29,7 +29,7 @@ The program computes the brightness of each triangle with operations on vectors.
 dotProduct
 
 Look at the toString() method in the Vector3D class. It calls the format() method of the String class. This method is probably unfamiliar to you. By experimentation and by reading on the Web learn how it works, then explain as clearly and concisely as you can.
-The format() works a lot like printf in most other languages. The first argument is the string to be formatted with certain placeholders that show what type of data will be put into that place. All other arguments replace the placeholders with the argument provided. The first argument goes to eh zeroth placeholder, teh second to the first and so on. For example:
+The format() works a lot like printf in most other languages. The first argument is the string to be formatted with certain placeholders that show what type of data will be put into that place. All other arguments replace the placeholders with the argument provided. The first argument goes to eh zeroth placeholder, the second to the first and so on. For example:
 String.format("%s is %d years old, er, young", "Al", 45) ); will return "Al is 45 years old, er, young"
 The %s signifies string %d signifies decimal value. Format is used mostly to have to avoid string concatenation for outputting.
 
