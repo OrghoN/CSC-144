@@ -11,7 +11,7 @@ JFrame-This is a top level container. In this case, it holds a container which i
 Container- The container can be used to contain other AWT or swing components and in this case, it contains the JPanel that is being used for the shading.
 Some interfaces are:
 List-Linked list implements the list interface. This means certain methods can be expected of all LinkedLists as stated in the List interface.
-Shape-Provides definitions for obects that are a geometric shape.
+Shape-Provides definitions for objects that are a geometric shape.
 
 The program uses recursion. Where? For what purpose?
 Recursion is used in the function Subdivide to subdivide triangles further.
@@ -37,5 +37,6 @@ Compose a UML class diagram to describe the Vector3D class.
 https://github.com/OrghoN/CSC-144/blob/master/shadingDiagram/UMLClassDiagram.png
 
 Complete the unit tests for the methods of the Vector3D class by editing Vector3DTest.java.
+https://github.com/OrghoN/CSC-144/blob/master/shading/test/shading/Vector3DTest.java
 
 (Challenge problem) Modify the program so that it draws a different kind of curved surface.

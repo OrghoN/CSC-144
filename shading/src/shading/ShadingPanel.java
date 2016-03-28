@@ -38,7 +38,7 @@ public class ShadingPanel extends JPanel {
         transform.concatenate(scale);
         transform.concatenate(translate);
 
-        Vector3D illumination = new Vector3D(1.0, 2.0, 3.0);
+        Vector3D illumination = new Vector3D(-1.0, 2.0, 3.0);
         illumination = illumination.normalize();
 
         for (Triangle t : makeTriangles()) {
@@ -73,7 +73,7 @@ public class ShadingPanel extends JPanel {
 
         x = 0.0;
         y = 1.0;
-        z = 0.0;
+        z = -5;
         Vector3D north = new Vector3D(x, y, z);
 
         x = 1.0;
@@ -83,7 +83,7 @@ public class ShadingPanel extends JPanel {
 
         x = 0.0;
         y = -1.0;
-        z = 0.0;
+        z = 2.0;
         Vector3D south = new Vector3D(x, y, z);
 
         Triangle triangle = new Triangle(west, center, north);
@@ -97,7 +97,6 @@ public class ShadingPanel extends JPanel {
 
         triangle = new Triangle(south, east, center);
         triangles.addAll(triangle.subdivide());
-
         return triangles;
     } // makeTriangles()
 

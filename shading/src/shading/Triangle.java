@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Triangle {
 
-    private static final double RECURSION_LIMIT = 3;
+    private static final double RECURSION_LIMIT = 6;
 
     private final Vector3D p0;
     private final Vector3D p1;
