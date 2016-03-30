@@ -65,7 +65,7 @@ public class ShadingPanel extends JPanel implements MouseMotionListener {
         List<Triangle> triangles = new LinkedList<>();
 
         double x = -1.0;
-        double y = 0.0;
+        double y = 1.0;
         double z = 0.0;
         Vector3D west = new Vector3D(x, y, z);
 
@@ -76,17 +76,17 @@ public class ShadingPanel extends JPanel implements MouseMotionListener {
 
         x = 0.0;
         y = 1.0;
-        z = -0;
+        z = 0;
         Vector3D north = new Vector3D(x, y, z);
 
         x = 1.0;
         y = 0.0;
-        z = 0.0;
+        z = 0;
         Vector3D east = new Vector3D(x, y, z);
 
         x = 0.0;
         y = -1.0;
-        z = 0.0;
+        z = 1.0;
         Vector3D south = new Vector3D(x, y, z);
 
         Triangle triangle = new Triangle(west, center, north);
