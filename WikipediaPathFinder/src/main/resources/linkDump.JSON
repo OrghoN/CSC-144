@@ -1,0 +1,7830 @@
+[
+  {
+    "parse": {
+      "title": "San Francisco",
+      "pageid": 49728,
+      "links": [
+        {
+          "ns": 14,
+          "exists": "",
+          "*": "Category:Use mdy dates from June 2015"
+        },
+        {
+          "ns": 14,
+          "exists": "",
+          "*": "Category:Articles with unsourced statements from June 2015"
+        },
+        {
+          "ns": 14,
+          "exists": "",
+          "*": "Category:Wikipedia articles in need of updating from February 2016"
+        },
+        {
+          "ns": 14,
+          "exists": "",
+          "*": "Category:Articles with unsourced statements from December 2015"
+        },
+        {
+          "ns": 14,
+          "exists": "",
+          "*": "Category:Articles with dead external links from June 2011"
+        },
+        {
+          "ns": 14,
+          "exists": "",
+          "*": "Category:Neighborhoods in San Francisco, California"
+        },
+        {
+          "ns": 14,
+          "exists": "",
+          "*": "Category:San Francisco, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Flag of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Seal of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "2010 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California earthquake forecast"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Desert Research Institute"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Digital object identifier"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Geographic Names Information System"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Harold Gilliam"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Herb Caen"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "International Standard Book Number"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "JSTOR"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Köppen climate classification"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "League of American Bicyclists"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Loughborough University"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Metropolitan Opera"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Modern Language Association"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "National Oceanic and Atmospheric Administration"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "News release"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "OCLC"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Public Broadcasting Service"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Business Times"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Subtropical"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "U.S. News and World Report"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United States Geological Survey"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United States Postal Service"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "University of California, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Wayback Machine"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mexico"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Italy"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Spain"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bulgaria"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Venezuela"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Republic of Ireland"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Israel"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Vietnam"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Russia"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Philippines"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Japan"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "France"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "China"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Australia"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Taiwan"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greece"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Switzerland"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1860 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1870 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1880 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1890 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1900 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1906 San Francisco earthquake"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1910 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1920 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1930 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1940 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1950 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1960 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1970 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1980 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1989 Loma Prieta earthquake"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "1990 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "19th Avenue (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "2000 United States Census"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "2010 World Series"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "2012 World Series"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "2013 America's Cup"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "2014 World Series"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "555 California Street"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "7x7 (magazine)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "AT&T Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Aaron Peskin"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Academy of Art University"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "African American"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "African American (U.S. Census)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Airbnb"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Al Capone"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Al Jazeera America"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alameda, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alameda (island)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alamo Square"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alcalde"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alcatraz"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alcatraz Federal Penitentiary"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alcatraz Island"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "All-America Football Conference"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alta Bicycle Share"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alternative weekly"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Amadeo Giannini"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ambrose Bierce"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "American Conservatory Theater"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Amtrak California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Amtrak Police"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Anchor Brewing Company"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Angel Island, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Apple Inc."
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Aquatic Park Historic District"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Architecture of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Area codes 415 and 628"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Art school"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Arterial thoroughfares"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Asian (U.S. Census)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Asian American"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Asian Art Museum of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Asiatic-Pacific Theater"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Assisi"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "BART"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "BART Police"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "BBC"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Baghdad"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Baker Beach"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bank of America"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bank of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bank of Italy (USA)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Barbary Coast, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Barcelona"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Barry Bonds"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Base Realignment and Closure"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bay Area Air Quality Management District"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bay Area Bike Share"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bay Farm Island, Alameda, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bay to Breakers"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bayview-Hunters Point, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Beat Generation"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Beaux-Arts architecture"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Benicia, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bernal Heights, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Big-box store"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bill Russell"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Biotechnology"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Black American"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bloomberg West"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Blue-collar"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bohemianism"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Broadway theatre"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Burgas"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "CCTV America"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "CNBC"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "CNET Networks"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "CNN"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cable car (railway)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California's 11th State Senate district"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Academy of Sciences"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California College of the Arts"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Culinary Academy"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Current"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Democratic Party"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Department of Parks and Recreation"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Gold Rush"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Highway Patrol"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Institute for Quantitative Biosciences"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Institute for Regenerative Medicine"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Institute of Integral Studies"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Pacific Medical Center"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Palace of the Legion of Honor"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California State Assembly"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California State Route 1"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California State Route 35"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California State Route 480"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California State Route 82"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California State University"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Zephyr"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Californio"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Caltrain"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Candlestick Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Candlestick Point State Recreation Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cantonese"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Capitol Corridor"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Caracas"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Carsharing"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Castro District, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Catholic school"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Central Freeway"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Central Valley (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Charter city"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Chinatown"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Chinatown, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Chinese American"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Chinese Railroad Workers"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "City Carshare"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "City College of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "City council"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Civic Center, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Clay Street Hill Railroad"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "CleanPowerSF"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cliff House (San Francisco, California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Coast Starlight"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Coit Tower"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Combined Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Combined statistical area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Comcast SportsNet Bay Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Comcast SportsNet California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Community college"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Compromise of 1850"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Comstock Lode"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Conservatory of Flowers"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Consolidated city-county"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Consolidated city–county"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Containerization"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Contemporary Jewish Museum"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Coordinated Universal Time"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cork (city)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Counterculture of the 1960s"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cow Hollow, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Craigslist"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Crips"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Crissy Field"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Crocker-Amazon"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cruise ship"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Culture of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cycling in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cycling infrastructure"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Daly City"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Daughters of Bilitis"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "David Campos"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "David Chiu (politician)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Daylight saving time"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Democratic Party (United States)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Demographics of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Demonym"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Designated market area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dianne Feinstein"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Disc golf"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dolby"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Domingo Ghirardelli"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dot-com bubble"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Drainage basin"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dropbox (service)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dungeness crab"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "ESPN"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Eadweard Muybridge"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Earthquake liquefaction"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "East Bay (San Francisco Bay Area)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ecosystem"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ed Lee (politician)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Edwin M. Lee"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "El Niño"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Embarcadero (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Embarcadero Freeway"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Emeryville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Emeryville (Amtrak station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "English language"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Eric Mar"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Escape from Alcatraz (triathlon)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Eureka Valley (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Euromonitor International"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Excelsior District, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Exploratorium"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "F Market"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Farallon Islands"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Federal Information Processing Standard"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Federal Reserve Bank of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fight Hunger Bowl"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Filipino American"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fillmore District, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fillmore District, San Francisco, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fillmore Street"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Financial District, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Financial District (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Financial services"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "First Mexican Empire"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "First Transcontinental Railroad"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fisherman's Wharf, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fleet Week"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Forest Hill, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Formula retail"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fort Funston"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fort Mason"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fort Point, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fortune 500"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Francis of Assisi"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Francisco Palóu"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Francisco de Haro"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Freeway and expressway revolts"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Friends of the Urban Forest"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Gap Inc."
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Gaspar de Portolà"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Gavin Newsom"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Gay village"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Gentrification"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Geographic coordinate system"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "George Moscone"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Gladstone Institutes"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Global Financial Centres Index"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Global city"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Gold Mountain (Chinese name for part of North America)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Golden Dragon massacre"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Golden Gate"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Golden Gate Bridge"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Golden Gate Ferry"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Golden Gate International Exposition"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Golden Gate National Recreation Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Golden Gate Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Golden Gate University"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Golf course"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Google"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Government of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Grateful Dead"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Great Depression"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Green Party (United States)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Haifa"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Haight-Ashbury"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hardiness zone"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Harvey Milk"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hayes Valley, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hayes Valley, San Francisco, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hayward Fault"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Healthy San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hetch Hetchy"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hetch Hetchy Aqueduct"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hetch Hetchy Reservoir"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hetch Hetchy Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Heyday Books"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "High tech"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Highway revolts in the United States"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hippie"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hispanic (U.S. Census)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hispanic American"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hispanic and Latino Americans"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hispanics in the United States"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "History of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ho Chi Minh City"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Homelessness"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Homosexuality"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hunters Point, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Immigration to the United States"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Indigent"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Information technology"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Initiative"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Interstate 280 (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Interstate 80 in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ireland"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Islais Creek"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Islands of San Francisco Bay"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Jack London"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Jackie Speier"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "James Rolph"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Jane Kim"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Janis Joplin"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Japanese American"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Japanese American internment"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Japanese tea garden at Golden Gate Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Japantown, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Jefferson Airplane"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Joe Boys"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "John Avalos"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "John B. Montgomery"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "John Barbagelata"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "John D. Sloat"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "José Joaquin Moraga"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "José Sarria"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Juan Bautista de Anza"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "KALW"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "KCBS (AM)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "KPIX"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "KPOO"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "KQED-FM"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "KQED-TV"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Katy Tang"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Kitesurfing"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "LGBT"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "LGBT culture in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "LGBT rights in the United States"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "LGBT social movements"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "La Niña"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lake Merced"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Land reclamation"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lands End, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Largest cities in the United States by population by decade"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Latino (U.S. Census)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Le Cordon Bleu"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "League of Resident Theatres"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Led Zeppelin"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Levi's Stadium"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Levi Strauss"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Levi Strauss & Co."
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lieutenant Governor of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lincoln Highway"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lincoln Park (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Link TV"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of California state parks"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of Combined Statistical Areas"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of Landmarks and Historic Places in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of Metropolitan Statistical Areas"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of United States cities by population"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of United States cities by population density"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of cities and towns in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of cities and towns in the San Francisco Bay Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of cities by quality of living"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of cities in California (by population)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of colleges and universities in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of companies based in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of counties in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of diplomatic missions in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of high schools in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of hills in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of largest California cities by population"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of museums in San Francisco Bay Area, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of parks in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of people from San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of sovereign states"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of streets in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of tallest buildings in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of television stations in the San Francisco Bay Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of theatres in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Little Italy"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Loma Prieta earthquake"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lombard Street (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "London Breed"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lone Mountain (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Los Angeles"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Louise M. Davies Symphony Hall"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lowell High School (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "M. H. de Young Memorial Museum"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "MS-13"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "MSNBC"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "MV Del Norte"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Magnet school"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Major League Baseball"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Malia Cohen"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Manhattanization"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Manila"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Manufacturing in the United States"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Marin County"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Marin Headlands"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Marina District, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mark Farrell (politician)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mark Leno"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Market Street (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Marriage"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mary C. Morgan"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mayor-council government"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mayor of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Media in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Medicaid"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Medical research"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mediterranean climate"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Metropolitan statistical area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mexican American"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mexican Cession"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mexican War of Independence"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mexican–American War"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Michael O'Shaughnessy"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Microclimate"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Millbrae, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Minority-majority"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mission Bay, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mission Creek"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mission District"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mission District, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mission San Francisco de Asís"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mission Street"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mixed-use development"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Modern liberalism in the United States"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Montgomery Street"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Morrison Planetarium"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Moscone-Milk assassinations"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Moscone Center"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mother Jones (magazine)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mother language"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mount Davidson (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mozilla"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Muni Metro"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Municipal incorporation"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Music school"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "NCAA"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "NCAA Division I"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "NCAA Men's Division I Basketball Championship"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Namesake"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Nancy Pelosi"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "National Football League"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "National Historic Landmark"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "National Park Service"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "National Public Radio"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "National Weather Service"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Neighborhoods in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "New York City"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ninth Circuit U.S. Court of Appeals"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Nob Hill"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Nob Hill, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Noe Valley, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Non-Hispanic Whites"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Norman Yee"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Norteños"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "North American Numbering Plan"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "North Beach, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "North Pacific High"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Northern California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Oakland, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Oakland International Airport"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ocean Beach, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ocean Beach (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Office of Management and Budget"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ohlone"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Olympic Club"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "One Market Plaza"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Opposition to United States involvement in the Vietnam War"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Osaka"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "POSSLQ"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pac-12 Network"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pacific Daylight Time"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pacific Exchange"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pacific Gas and Electric Company"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pacific Heights, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pacific Ocean theater of World War II"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pacific Surfliner"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pacific Time Zone"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pacific War"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Painted Ladies"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Palace of Fine Arts"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Palais de la Légion d'Honneur"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Palo Alto, CA"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Panama-Pacific International Exposition (1915)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Paris"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Parochial school"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Peace Movement"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Phil Ting"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Philo Farnsworth"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pier 39"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pinterest"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Political divisions of the United States"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Politics of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Population density"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Port of Oakland"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Port of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Portsmouth Square"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Potrero Hill"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Potrero Hill, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Poverty rate"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Presidio of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pride parades"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Primary language"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Private school"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Public broadcasting"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Public school (government funded)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "RT (TV network)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Rainbow flag (LGBT movement)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Raker Act"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ranchos of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Red Rock Island"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Reddit"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Regional Theatre Tony Award"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Regional sports network"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Republican Party (United States)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Richmond District, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Robert Franklin Stroud"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Roman Catholic Archdiocese of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Russian Hill, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Russian language"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Russian people"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "SF Weekly"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Saint Francis (disambiguation)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Salesforce.com"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Salon.com"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Salt marsh"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Salvadoran American"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Same-sex partnerships"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Andreas Fault"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Bruno, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Diego"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco (disambiguation)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco 49ers"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Art Institute"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Ballet"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Bay"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Bay Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Bay Ferry"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Board of Supervisors"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Botanical Garden"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Cable Car Museum"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Chinese New Year Festival and Parade"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Chronicle"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco City Hall"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Conservatory of Music"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Dons men's basketball"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Examiner"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Ferry Building"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Fire Department"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Fire Department Auxiliary Water Supply System"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Giants"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco International Airport"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Magazine"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Mandatory Recycling and Composting Ordinance"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Marathon"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Maritime National Historical Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Mime Troupe"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Municipal Railway"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Municipal Transportation Agency"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Museum of Modern Art"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Naval Shipyard"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Opera"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Peninsula"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Planning and Urban Research Association"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Police Department"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Pride"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Public Utilities Commission"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Recreation & Parks Department"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Renaissance"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Sheriff's Department"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Sound"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco State University"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Symphony"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Unified School District"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco War Memorial and Performing Arts Center"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Zoo"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco architecture"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco cable car system"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco fog"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco fog generation"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco in popular culture"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco mayoral election, 1975"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco plague of 1900–1904"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco–Oakland Bay Bridge"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco–Oakland–Fremont, CA Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco–Oakland–Hayward"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco–Oakland–Hayward, CA Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Joaquin (train)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Jose, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Jose-San Francisco-Oakland"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Jose-San Francisco-Oakland, CA Combined Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Jose–San Francisco–Oakland"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Luis Obispo, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Mateo County"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Mateo County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Clara, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "School of the Arts High School (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Scott Wiener"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Seattle"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Second Great Migration (African American)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Segregated cycle facilities"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Service economy"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sexual Revolution"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Shanghai"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ships lost in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sierra Club"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Silicon Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sing Tao Daily"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sister Cities International"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sister cities of San Francisco, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Skyline Boulevard"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Snøhetta (company)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Social media"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Society of Jesus"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Solano County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Soltrans"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sourdough"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "South Beach, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "South San Francisco, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "South of Market, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "South of Market (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Southern Pacific Lines"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Spanish Empire"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Spanish Missions of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Spanish colonization of the Americas"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Spanish language"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sports club"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sports in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Square, Inc."
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "St. Francis Wood, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "St. Francis of Assisi"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Startup company"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Steinhart Aquarium"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Stockton Street Tunnel"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Subsidy"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Summer of Love"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sunset District, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sunset Reservoir"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sunshine duration"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Super Bowl"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Supreme Court of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sureños"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Surfing"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sutro Tower"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sydney"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tagalog language"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Taipei"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Taishanese"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Telegraph Hill, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tenderloin, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "The Castro"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "The Castro, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "The Embarcadero (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "The Fillmore"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Theresa Sparks"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Thessaloniki"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Thruway Motorcoach"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Timbuk2"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Time zone"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Timeline of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tony Awards"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tourism"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Transamerica Pyramid"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Transbay Tube"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Transgender"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Transportation in the San Francisco Bay Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Treasure Island, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Treasure Island, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Treaty of Guadalupe Hidalgo"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Treaty of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Triathlon"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Twentysomething (term)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Twin Peaks (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Twin Peaks (San Francisco, California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Twin Peaks Tunnel"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Twitter"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tyumen"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "U.S. Open (golf)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "U.S. Route 101 in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "U.S. state"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "UCSF Medical Center"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "USDA"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "USS San Francisco (CA-38)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Uber (company)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ukrainian people"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Unincorporated area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Union Square, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Union Square (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United Airlines"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United Mexican States"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United Nations Charter"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United States"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United States Coast Survey"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United States House of Representatives"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United States Mint"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United States Park Police"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United States presidential election, 1988"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "University of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "University of California, Hastings College of the Law"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "University of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Urban renewal"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Vallejo, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Van Ness Avenue (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Variety of Chinese"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Victorian house"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Vietnamese American"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Virgin America"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Visitacion Valley, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Wall Street Crash of 1929"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Wall Street of the West"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "War Memorial Opera House"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "War Memorial Opera House (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Warm-summer Mediterranean climate"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Web 2.0"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Weebly"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Wells Fargo"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "West Coast of the United States"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "West Portal, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Western Addition, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "White-collar worker"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "White (U.S. Census)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "White American"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Wikimedia Foundation"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "William A. Richardson"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "William Randolph Hearst"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Willie Mays"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Willie McCovey"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Windsurfing"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "World's fair"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "World's most livable cities"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "World Series"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "World War II"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Yelamu"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Yelp"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Yerba Buena, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Yerba Buena Gardens"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Yerba Buena Island"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Yosemite National Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "ZIP Code"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Zebra murders"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Zipcar"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Zoopraxiscope"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Zürich"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "22nd Street (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "49-Mile Scenic Drive"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "AC Transit"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alameda County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alamo, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alamo Square, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Albany, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alemany Boulevard"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alpine County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alturas, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Alum Rock, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Amador County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "American Canyon, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Anaheim, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Andre Quintero"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Antelope Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Antioch, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Anza Vista, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Aquarium of the Bay"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ashland, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ashley Swearengin"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Atherton, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Atlanta metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Auburn, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bakersfield, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Balboa Park, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Balmy Alley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Baltimore metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bao Nguyen"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Barbara Halliday"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bay Area Rapid Transit"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bay Point, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Belden Place"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Belmont, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Berkeley, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bernal Heights Summit"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Big Sur"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bill Graham Civic Auditorium"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bill Harrison (Californian politician)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Birmingham-Hoover, AL Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bodega Bay"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Boudin Bakery"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Brentwood, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bridgeport, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Brisbane, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Broadmoor, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Broadway (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Buena Vista Cafe"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Buena Vista Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Burbank, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Burlingame, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Butte County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Calaveras County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Coast Ranges"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Floristic Province"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Sound"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Street (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California protected areas"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Campbell, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Carlsbad, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Carquinez Strait"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cartoon Art Museum"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cascade Range"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Castro Valley, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cathedral Hill, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Census-designated place"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Central California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Central Coast (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Channel Islands of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Charlotte metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cherryland, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Chicago metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Chinese Historical Society of America"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Chula Vista, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cincinnati metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "City Attorney of San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Clarion Alley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Clayton, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cliff House, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Clifton Court Forebay"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Climate of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Clipper card"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Clovis, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Coachella Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Coastal California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cole Valley, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Colma, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Columbus, Ohio metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Columbus Avenue (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Colusa, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Colusa County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Concord, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Conejo Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Contra Costa County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Corona, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Corona Heights, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Corona Heights Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Costa Mesa, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cow Palace"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Crescent City, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Crocker-Amazon, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cucamonga Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cuisine of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Culture of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Cupertino, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dallas–Fort Worth metroplex"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Daly City, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Danville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "De Young Museum"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Death Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Del Norte County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Delaware Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Demographics of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Denver-Aurora-Lakewood, CO Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Diamond Heights, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Discovery Bay, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Districts in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dixon, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dogpatch, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dolores Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Downey, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Downieville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dublin, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Duboce Triangle, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "East County, San Diego"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "East Palo Alto, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Eastern California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ecology of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Economy of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Education in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "El Cajon, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "El Centro, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "El Cerrito, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "El Dorado County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "El Granada, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "El Monte, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "El Sobrante, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Elections in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Elk Grove, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Emerald Lake Hills, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Emerald Triangle"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Environment of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Eric Garcetti"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Escondido, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Etymologies of place names in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Eugene Montanez"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Eureka, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Eureka Valley, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "F Market & Wharves"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fairfield, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fairmont San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fairview, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fauna of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Filbert Street (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fontana, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fort Baker"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Foster City, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fremont, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fresno, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fresno County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Fullerton, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Garden Grove, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Geary Boulevard"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Geography of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ghirardelli Chocolate Company"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ghirardelli Square"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Gilroy, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Glen Canyon Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Glen Park, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Glendale, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Glenn County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Gold Country"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Golden Gate Transit"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Government of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Grace Cathedral, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Grand View Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Grant Avenue"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Great Basin"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Great Highway"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater Austin"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater Boston"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater Cleveland"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater Hartford"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater Houston"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater Los Angeles Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater Orlando"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater Richmond Region"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater San Antonio"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater St. Louis"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Grizzly Bay"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Guadalupe River (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Haas-Lilienthal House"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Haight Street"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Half Moon Bay, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Half Moon Bay (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hampton Roads"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hanford, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Harvey Hall"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hawk Hill, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hayward, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Healdsburg, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Healthcare in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hercules, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Highlands-Baywood Park, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hillsborough, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "History of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hollister, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Humboldt County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Huntington Beach, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Imperial County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Independence, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Index of California-related articles"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Indianapolis metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ingleside, San Francisco, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ingleside Terraces, San Francisco, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Inglewood, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Inland Empire"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Inyo County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Irvine, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Jack Kerouac Alley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Jackson, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Jacksonville metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "James T. Butts, Jr."
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "John McLaren Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Junipero Serra Boulevard"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Kansas City metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Kearny Street"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Kern County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Kevin Faulconer"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Kevin Johnson"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Kezar Stadium"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Kings County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Klamath Basin"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "La Honda, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ladera, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lafayette, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lafayette Park (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lake Berryessa"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lake County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lake Tahoe"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lakeport, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lancaster, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Larkspur, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Las Vegas–Paradise, NV MSA"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lassen County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Laurel Heights, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Law of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Libby Schaaf"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lincoln Park, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lincoln Way (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of California Historical Landmarks"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of California county seats"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of California state symbols"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of National Historic Landmarks in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of National Natural Landmarks in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of all combined Landmarks and Historic Places in San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of earthquakes in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of municipalities in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of people associated with San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of people from California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of regions of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lists of San Francisco topics"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Livermore, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Loma Mar, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Long Beach, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Los Altos, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Los Angeles Basin"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Los Angeles County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Los Angeles metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Los Gatos, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lost Coast"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Louisville metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lower Haight, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Macondray Lane"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Madera, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Madera County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Maiden Lane (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Marin County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Marina Green"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mariposa, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mariposa County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mark Hopkins Hotel"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Markleeville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Martinez, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mary Salas"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Marysville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mayor"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Media in the San Francisco Bay Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Memphis metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mendocino County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Menlo Park, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Merced, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Merced County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Metreon"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Metro Detroit"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Metropolitan Fresno"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Miami metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mid-Market, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Miguel A. Pulido"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mill Valley, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Milpitas, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Milwaukee metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Minneapolis–Saint Paul"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Modesto, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Modoc County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mojave Desert"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mono County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Montara, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Monterey County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Moraga, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Moreno Valley, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Morgan Hill, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Moss Beach, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mountain Empire, San Diego"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mountain Lake Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Mountain View, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Murrieta, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Museo ItaloAmericano"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Museum of Performance & Design"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Museum of the African Diaspora"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Music of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Musée Mécanique"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Napa, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Napa County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Napa River"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Nashville metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "National Register of Historic Places listings in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "National Register of Historic Places listings in San Francisco, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Nevada City, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Nevada County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "New Montgomery Street"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "New Orleans metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "New York metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Newark, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "North Bay (San Francisco Bay Area)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "North Coast (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "North County (San Diego area)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "North Fair Oaks, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Norwalk, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Novato, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Oakland Estuary"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Oakley, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ocean Beach, San Francisco, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ocean View, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Oceanside, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Octavia Boulevard"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Oklahoma City metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ontario, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Orange, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Orange County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Orinda, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Oroville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Outer Mission, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Outline of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Owens Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Oxnard, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Oxnard Plain"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pacific Heights"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pacific Ocean"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pacifica, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Painted ladies"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Palmdale, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Palo Alto, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Panhandle (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Parkside, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pasadena, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Peninsular Ranges"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pescadero, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Petaluma, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Petaluma River"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Phoenix metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Piedmont, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pinole, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pioneer Park (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pittsburg, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pittsburgh metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Placer County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Placerville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pleasant Hill, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pleasanton, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Plumas County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Politics of California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Polk Street"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pomona, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pomona Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Portland metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Portola, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Portola Valley, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Precita Eyes"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Providence metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Puerto Rico"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Quincy, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "R. Carey Davis"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Rancho Cucamonga, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Randall Museum"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Red Bluff, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Redding, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Redwood City, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Research Triangle"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Rialto, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Richardson Bay"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Richmond, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Richmond Inner Harbor"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ripley's Believe It or Not!"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Riverside, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Riverside County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Robert Garcia (California politician)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Rohnert Park, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Roseville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Russian River (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sacramento, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sacramento County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sacramento River"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sacramento Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sacramento metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Salinas, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Salinas Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "SamTrans"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sam Liccardo"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Andreas, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Anselmo, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Benito County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Bernardino, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Bernardino County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Bernardino Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Carlos, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Diego County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Diego–Tijuana"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Fernando Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Arts Commission"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Bay Area Combined Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Bay Trail"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Board of Education"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco County Superior Court"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco County Transportation Authority"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Department of Public Works"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco District Attorney's Office"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Ethics Commission"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Human Rights Commission"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Mint"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Police Commission"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Public Library"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Railway Museum"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco Youth Commission"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Gabriel Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Joaquin County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Joaquin Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Jose-Sunnyvale-Santa Clara, CA Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Juan-Carolina-Caguas, PR Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Leandro, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Leandro Bay"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Lorenzo, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Luis Obispo County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Mateo, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Pablo, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Pablo Bay"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Rafael, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Ramon, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Ana, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Barbara, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Barbara County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Clara County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Clara River Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Clara Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Clarita, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Clarita Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Cruz, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Cruz County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Maria, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Rosa, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Ynez Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Saratoga, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sausalito, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sea Cliff, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Seal Rocks (San Francisco, California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Seattle metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Shasta Cascade"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Shasta County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sierra County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sierra Nevada (U.S.)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sigmund Stern Recreation Grove"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Simi Valley, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Siskiyou County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "SolTrans"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sonoma, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sonoma County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sonoma Creek"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sonora, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "South Bay, Los Angeles"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "South Bay, San Diego"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "South Bay (San Francisco Bay Area)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "South Coast (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "South Park, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "South San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Southern Border Region (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Southern California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sports in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sports in the San Francisco Bay Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Stanford, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Stanislaus County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Stanyan Street"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Steven Choi"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Stockton, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Stockton Street (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Stonestown Galleria"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Strawberry Hill (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Suisun Bay"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Suisun City, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sunnyvale, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Susanville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sutro Baths"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sutro Heights Park"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sutter County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tadich Grill"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tamalpais-Homestead Valley, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tampa Bay Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tech Coast"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tehama County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Temecula, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Terry Tornek"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "The New Yorker"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "The Walt Disney Family Museum"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Third Street (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Thousand Oaks, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tom Bates"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tom Butt"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tom Tait"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tomales Bay"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tonga Room"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Top of the Mark"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Torrance, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Transportation in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Transverse Ranges"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tri-Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Trinity County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tulare County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tuolumne County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "USS Pampanito (SS-383)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ukiah, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Union City, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Union Street (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United States congressional delegations from California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Vacaville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ventura, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ventura County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Vermont Street (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Victor Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Victorville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Visalia, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Walnut Creek, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Washington Square (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Washington metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Water in California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Wattis Institute for Contemporary Arts"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Weaverville, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "WestCAT"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "West Covina, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "West Menlo Park, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Westfield San Francisco Centre"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Westwood Highlands, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Westwood Park, San Francisco"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Willows, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Windsor, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Wine Country (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Woodland, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Woodside, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Yerba Buena Center for the Arts"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Yolo County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Yreka, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Yuba City, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Yuba County, California"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Zareh Sinanyan"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Zeum"
+        },
+        {
+          "ns": 0,
+          "*": "16th Street (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "*": "24th Street (San Francisco)"
+        },
+        {
+          "ns": 0,
+          "*": "Clay Street"
+        },
+        {
+          "ns": 0,
+          "*": "Rusty Bailey"
+        },
+        {
+          "ns": 0,
+          "*": "Anthony Silva (politician)"
+        },
+        {
+          "ns": 0,
+          "*": "Garrad Marsh"
+        },
+        {
+          "ns": 0,
+          "*": "Tim Flynn"
+        },
+        {
+          "ns": 0,
+          "*": "Acquanetta Warren"
+        },
+        {
+          "ns": 0,
+          "*": "Jesse Molina"
+        },
+        {
+          "ns": 0,
+          "*": "Jim Katapodis"
+        },
+        {
+          "ns": 0,
+          "*": "Marsha McLean"
+        },
+        {
+          "ns": 0,
+          "*": "Jim Wood (California)"
+        },
+        {
+          "ns": 0,
+          "*": "L. Dennis Michael"
+        },
+        {
+          "ns": 0,
+          "*": "John Sawyer (California politician)"
+        },
+        {
+          "ns": 0,
+          "*": "Paul S. Leon"
+        },
+        {
+          "ns": 0,
+          "*": "Gary Davis (politician)"
+        },
+        {
+          "ns": 0,
+          "*": "R. Rex Parris"
+        },
+        {
+          "ns": 0,
+          "*": "James C. Ledford Jr."
+        },
+        {
+          "ns": 0,
+          "*": "Joe Gunter"
+        },
+        {
+          "ns": 0,
+          "*": "Elliot Rothman"
+        },
+        {
+          "ns": 0,
+          "*": "Sam Abed"
+        },
+        {
+          "ns": 0,
+          "*": "Jim Griffith"
+        },
+        {
+          "ns": 0,
+          "*": "Patrick J. Furey"
+        },
+        {
+          "ns": 0,
+          "*": "Teresa Smith"
+        },
+        {
+          "ns": 0,
+          "*": "Greg Sebourn"
+        },
+        {
+          "ns": 0,
+          "*": "Al Adam"
+        },
+        {
+          "ns": 0,
+          "*": "Steve Nelsen"
+        },
+        {
+          "ns": 0,
+          "*": "Carol Garcia"
+        },
+        {
+          "ns": 0,
+          "*": "Tim Grayson"
+        },
+        {
+          "ns": 0,
+          "*": "Bob Huber"
+        },
+        {
+          "ns": 0,
+          "*": "Jamie L. Matthews"
+        },
+        {
+          "ns": 0,
+          "*": "Gloria Garcia"
+        },
+        {
+          "ns": 0,
+          "*": "Osby Davis"
+        },
+        {
+          "ns": 0,
+          "*": "Luis H. Marquez"
+        },
+        {
+          "ns": 0,
+          "*": "Stephen Mensinger"
+        },
+        {
+          "ns": 0,
+          "*": "Matt Hall (mayor)"
+        },
+        {
+          "ns": 0,
+          "*": "Harry T. Price"
+        },
+        {
+          "ns": 0,
+          "*": "Cheryl Heitmann"
+        },
+        {
+          "ns": 0,
+          "*": "Jeff Comerchero"
+        },
+        {
+          "ns": 0,
+          "*": "Wade Harper"
+        },
+        {
+          "ns": 0,
+          "*": "Fredrick Sykes"
+        },
+        {
+          "ns": 0,
+          "*": "Harry Ramos"
+        },
+        {
+          "ns": 0,
+          "*": "Mike Mendez"
+        },
+        {
+          "ns": 0,
+          "*": "Raymond A. Buenaventura"
+        },
+        {
+          "ns": 0,
+          "*": "Bob Frutos"
+        },
+        {
+          "ns": 0,
+          "*": "Alice Patino"
+        },
+        {
+          "ns": 0,
+          "*": "Bill Wells (politician)"
+        },
+        {
+          "ns": 0,
+          "*": "Maureen Freschet"
+        },
+        {
+          "ns": 0,
+          "*": "Deborah Robertson (politician)"
+        },
+        {
+          "ns": 0,
+          "*": "Nathan Magsig"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "22nd Street (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Akron, Ohio, metropolitan statistical area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Albuquerque metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Altamont Corridor Express"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Amtrak"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Amtrak Thruway Motorcoach"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Atherton (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Augusta metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Baton Rouge metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Bayshore (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Belmont (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Blossom Hill (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Boise metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Brevard County, Florida"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Broadway (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Buffalo–Niagara Falls metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Burlingame (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Butler Road (Peninsula Commute station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Avenue (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "California Shuttle Bus"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Caltrain Centralized Equipment Maintenance and Operations Facility"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Capital District"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Capitol (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Castro (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Charleston, South Carolina metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Chattanooga, TN-GA Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "College Park (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Colorado Springs metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Columbia, South Carolina metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dayton metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Deltona–Daytona Beach–Ormond Beach, FL metropolitan statistical area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Des Moines metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Diridon Station"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Downtown Mountain View station"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Dumbarton Express"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "El Paso metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Gilroy (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Grand Rapids metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater Bridgeport"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greater New Haven"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Greenville, South Carolina metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Harrisburg–Carlisle, Pennsylvania, metropolitan statistical area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hayward Park (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hidalgo County, Texas"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Highway 17 Express"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Hillsdale (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Honolulu County, Hawaii"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Integrated Authority File"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Jackson, MS Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Knoxville metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lakeland-Winter Haven metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lawrence (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lee County, Florida"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Lehigh Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Library of Congress Control Number"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of Caltrain stations"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of Peninsula Commute locomotives"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "List of United States core based statistical areas"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Little Rock-North Little Rock-Conway, AR Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Madison, Wisconsin, metropolitan statistical area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Menlo Park (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Millbrae Intermodal Terminal"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Monterey-Salinas Transit"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Morgan Hill (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "National Diet Library"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Ogden–Clearfield metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Omaha–Council Bluffs metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Palo Alto (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Paul Avenue (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Peninsula Commute"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Piedmont Triad"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Pima County, Arizona"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Provo–Orem metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Redwood City Sequoia Station"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Rochester, New York metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Salt Lake City metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Antonio (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Benito Transit"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Bruno (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Carlos (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco 4th and King Street Station"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Francisco and San Jose Railroad"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Joaquin Regional Transit District"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Martin (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "San Mateo (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Clara Station (California)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Clara Valley Transportation Authority"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Santa Cruz Metro"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sarasota metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "South San Francisco (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Southern Pacific Transportation Company"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Springfield, Massachusetts metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Stanford (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Sunnyvale (Caltrain station)"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Syracuse metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Système universitaire de documentation"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tamien Station"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Toledo, OH Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Transbay Transit Center"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "TransitAmerica Services, Inc."
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Tulsa metropolitan area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "United States Census Bureau"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Virtual International Authority File"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Wichita, KS Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Worcester, MA-CT Metropolitan Statistical Area"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Wyoming Valley"
+        },
+        {
+          "ns": 0,
+          "exists": "",
+          "*": "Youngstown–Warren–Boardman metropolitan statistical area"
+        },
+        {
+          "ns": 6,
+          "*": "File:Pacific RR Bond SF 1865.jpeg"
+        },
+        {
+          "ns": 6,
+          "*": "File:San francisco fire 1906.jpg"
+        },
+        {
+          "ns": 6,
+          "*": "File:SanFrancisco from TwinPeaks dusk MC.jpg"
+        },
+        {
+          "ns": 6,
+          "*": "File:Sf twinpeaks sunset.jpg"
+        },
+        {
+          "ns": 6,
+          "*": "File:SFPopulation.svg"
+        },
+        {
+          "ns": 4,
+          "exists": "",
+          "*": "Wikipedia:Featured articles"
+        },
+        {
+          "ns": 4,
+          "exists": "",
+          "*": "Wikipedia:Link rot"
+        },
+        {
+          "ns": 4,
+          "exists": "",
+          "*": "Wikipedia:Citation needed"
+        },
+        {
+          "ns": 4,
+          "exists": "",
+          "*": "Wikipedia:Manual of Style/Dates and numbers"
+        },
+        {
+          "ns": 4,
+          "exists": "",
+          "*": "Wikipedia:Wikimedia sister projects"
+        },
+        {
+          "ns": 12,
+          "exists": "",
+          "*": "Help:IPA for English"
+        },
+        {
+          "ns": 12,
+          "exists": "",
+          "*": "Help:Authority control"
+        },
+        {
+          "ns": 100,
+          "exists": "",
+          "*": "Portal:New Spain"
+        },
+        {
+          "ns": 100,
+          "exists": "",
+          "*": "Portal:San Francisco Bay Area"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:San Francisco"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:San Francisco attractions"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Streets in San Francisco"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Neighborhoods of San Francisco"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:San Francisco Peninsula"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:SF Bay Area"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:California cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:California county seats"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:California"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:USLargestMetros"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Alabama cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Arizona cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Colorado cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Connecticut cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Florida cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Georgia (US state) cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Illinois cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Indiana cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Iowa cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Kansas cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Louisiana cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Massachusetts cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Michigan cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Minnesota cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Missouri cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Nevada cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:New Jersey cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:New York cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:North Carolina cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Ohio cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Oklahoma cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Oregon cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Pennsylvania cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Tennessee cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Texas cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Utah cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Virginia cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Washington cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Wisconsin cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 10,
+          "exists": "",
+          "*": "Template:Caltrain"
+        },
+        {
+          "ns": 11,
+          "exists": "",
+          "*": "Template talk:California"
+        },
+        {
+          "ns": 11,
+          "exists": "",
+          "*": "Template talk:California cities and mayors of 100,000 population"
+        },
+        {
+          "ns": 11,
+          "exists": "",
+          "*": "Template talk:California county seats"
+        },
+        {
+          "ns": 11,
+          "exists": "",
+          "*": "Template talk:Neighborhoods of San Francisco"
+        },
+        {
+          "ns": 11,
+          "exists": "",
+          "*": "Template talk:SF Bay Area"
+        },
+        {
+          "ns": 11,
+          "exists": "",
+          "*": "Template talk:San Francisco"
+        },
+        {
+          "ns": 11,
+          "exists": "",
+          "*": "Template talk:San Francisco Peninsula"
+        },
+        {
+          "ns": 11,
+          "exists": "",
+          "*": "Template talk:San Francisco attractions"
+        },
+        {
+          "ns": 11,
+          "exists": "",
+          "*": "Template talk:Streets in San Francisco"
+        },
+        {
+          "ns": 11,
+          "exists": "",
+          "*": "Template talk:USLargestMetros"
+        },
+        {
+          "ns": 11,
+          "exists": "",
+          "*": "Template talk:Caltrain"
+        }
+      ]
+    }
+  }
+]

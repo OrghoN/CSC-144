@@ -5,6 +5,9 @@
  */
 package wikipediapathfinder;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import net.sourceforge.jwbf.core.actions.ContentProcessableBuilder;
 import net.sourceforge.jwbf.core.actions.Get;
 import net.sourceforge.jwbf.core.actions.HttpActionClient;
@@ -36,12 +39,10 @@ public class Query {
         return getParse.get().toString();
     }
 
-    public static void main(String[] args) {
-//        MediaWikiBot wikiBot = new MediaWikiBot("https://en.wikipedia.org/w/");
-//        Article article = wikiBot.getArticle("42");
-//        System.out.println(article.getText());
-
-        System.out.println(getLinks("San_Francisco"));
+    public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
+        PrintWriter out = new PrintWriter("linkDump.JSON", "UTF-8");
+        out.println(getLinks("San_Francisco"));
+        out.close();
 
     }
 
