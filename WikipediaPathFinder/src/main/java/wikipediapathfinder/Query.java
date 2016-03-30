@@ -41,7 +41,7 @@ public class Query {
 
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
         PrintWriter out = new PrintWriter("linkDump.JSON", "UTF-8");
-        out.println(getLinks("San_Francisco"));
+        out.println(getLinks("Cornell_College"));
         out.close();
 
     }
