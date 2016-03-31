@@ -8,6 +8,10 @@ package wikipediapathfinder;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import net.sourceforge.jwbf.core.actions.ContentProcessableBuilder;
 import net.sourceforge.jwbf.core.actions.Get;
 import net.sourceforge.jwbf.core.actions.HttpActionClient;
@@ -27,6 +31,8 @@ public class Query {
             .build();
 
     public static String getLinks(String title) {
+        title = title.replace(" ", "_");
+
         Get parse = new ApiRequestBuilder()
                 .formatJson()
                 .action("parse")
@@ -39,9 +45,29 @@ public class Query {
         return getParse.get().toString();
     }
 
+    public static List<String> parseLinks(String title) {
+        String linksString = getLinks(title);
+        Pattern p = Pattern.compile("(\\*\":\".*?\")", Pattern.DOTALL);
+        Matcher m = p.matcher(linksString);
+
+        List<String> links = new ArrayList<String>();
+        while (m.find()) {
+            String link = m.group().replace("\"", "").replace("*:", "");
+            if (!(link.contains("Template:") || link.contains("Category:"))) {
+                links.add(link);
+            }
+        }
+
+        return links;
+    }
+
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
+
+        List<String> links = parseLinks("Cornell College");
+
+//        UnidrectedGraph<String, DefaultEdge> g
         PrintWriter out = new PrintWriter("linkDump.JSON", "UTF-8");
-        out.println(getLinks("Cornell_College"));
+        out.println(links);
         out.close();
 
     }
