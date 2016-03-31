@@ -63,7 +63,7 @@ public class Query {
 
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
 
-        List<String> links = parseLinks("Cornell College");
+        List<String> links = parseLinks("Dhaka");
 
 //        UnidrectedGraph<String, DefaultEdge> g
         PrintWriter out = new PrintWriter("linkDump.JSON", "UTF-8");
