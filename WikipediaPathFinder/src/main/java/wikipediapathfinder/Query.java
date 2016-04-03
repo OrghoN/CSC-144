@@ -18,6 +18,9 @@ import net.sourceforge.jwbf.core.actions.HttpActionClient;
 import net.sourceforge.jwbf.core.actions.ResponseHandler;
 import net.sourceforge.jwbf.mediawiki.ApiRequestBuilder;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.jgrapht.ListenableGraph;
+import org.jgrapht.graph.DefaultEdge;
+import org.jgrapht.graph.ListenableDirectedGraph;
 
 /**
  *
@@ -29,6 +32,8 @@ public class Query {
             .withClient(HttpClientBuilder.create().build())
             .withUrl("https://www.wikipedia.org/w/")
             .build();
+
+    static ListenableGraph g = new ListenableDirectedGraph(DefaultEdge.class);
 
     public static String getLinks(String title) {
         title = title.replace(" ", "_");
@@ -49,11 +54,14 @@ public class Query {
         String linksString = getLinks(title);
         Pattern p = Pattern.compile("(\\*\":\".*?\")", Pattern.DOTALL);
         Matcher m = p.matcher(linksString);
+        g.addVertex(title);
 
         List<String> links = new ArrayList<String>();
         while (m.find()) {
             String link = m.group().replace("\"", "").replace("*:", "");
-            if (!(link.contains("Template:") || link.contains("Category:"))) {
+            if (!(link.contains("Template") || link.contains("Category"))) {
+                g.addVertex(link);
+                g.addEdge(title, link);
                 links.add(link);
             }
         }
@@ -63,11 +71,12 @@ public class Query {
 
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
 
-        List<String> links = parseLinks("Dhaka");
+        List<String> links = parseLinks("Mount Vernon, Iowa");
 
 //        UnidrectedGraph<String, DefaultEdge> g
         PrintWriter out = new PrintWriter("linkDump.JSON", "UTF-8");
-        out.println(links);
+        out.println(g);
+//        System.out.println(g);
         out.close();
 
     }
