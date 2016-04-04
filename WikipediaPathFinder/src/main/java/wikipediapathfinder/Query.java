@@ -5,21 +5,32 @@
  */
 package wikipediapathfinder;
 
+import com.jgraph.layout.JGraphFacade;
+import com.jgraph.layout.JGraphLayout;
+import com.jgraph.layout.tree.JGraphTreeLayout;
+import java.awt.Color;
+import java.awt.Dimension;
 import java.io.FileNotFoundException;
-import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import javax.swing.JApplet;
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
 import net.sourceforge.jwbf.core.actions.ContentProcessableBuilder;
 import net.sourceforge.jwbf.core.actions.Get;
 import net.sourceforge.jwbf.core.actions.HttpActionClient;
 import net.sourceforge.jwbf.core.actions.ResponseHandler;
 import net.sourceforge.jwbf.mediawiki.ApiRequestBuilder;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.jgraph.JGraph;
+import org.jgraph.graph.ConnectionSet;
 import org.jgrapht.ListenableGraph;
 import org.jgrapht.alg.DijkstraShortestPath;
+import org.jgrapht.ext.JGraphModelAdapter;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.ListenableDirectedGraph;
 
@@ -27,7 +38,7 @@ import org.jgrapht.graph.ListenableDirectedGraph;
  *
  * @author orgho
  */
-public class Query {
+public class Query extends JApplet {
 
     static HttpActionClient testee = HttpActionClient.builder()
             .withClient(HttpClientBuilder.create().build())
@@ -37,6 +48,17 @@ public class Query {
     static ListenableGraph g = new ListenableDirectedGraph(DefaultEdge.class);
 
     static final int RECURSION_LIMIT = 3;
+
+    static final String goal = "Colorado College";
+    static final String start = "Mount Vernon, Iowa";
+
+    private static final Color DEFAULT_BG_COLOR = Color.decode("#FAFBFF");
+    private static final Dimension DEFAULT_SIZE = new Dimension(4000, 4000);
+
+    @SuppressWarnings("rawtypes")
+    private JGraphModelAdapter jgAdapter;
+
+    @SuppressWarnings({"unchecked", "rawtypes"})
 
     public static String getLinks(String title) {
         title = title.replace(" ", "_");
@@ -53,7 +75,7 @@ public class Query {
         return getParse.get().toString();
     }
 
-    public static List<String> parseLinks(String title, String goal) {
+    public static List<String> parseLinks(String title) {
         String linksString = getLinks(title);
         Pattern p = Pattern.compile("(\\*\":\".*?\")", Pattern.DOTALL);
         Matcher m = p.matcher(linksString);
@@ -86,22 +108,29 @@ public class Query {
 
             String[] vertices = edgeString.split(":");
 
-            pathGraph.addVertex(vertices[0]);
-            pathGraph.addVertex(vertices[1]);
+            vertices[0] = vertices[0].trim();
+            vertices[1] = vertices[1].trim();
+
+            if (!pathGraph.containsVertex(vertices[0])) {
+                pathGraph.addVertex(vertices[0]);
+            }
+            if (!pathGraph.containsVertex(vertices[1])) {
+                pathGraph.addVertex(vertices[1]);
+            }
 
             pathGraph.addEdge(vertices[0], vertices[1]);
         }
         return pathGraph;
     }
 
-    public static void parseLinks(List<String> links, String goal, int counter) {
+    public static void parseLinks(List<String> links, int counter) {
         List<String> found = new LinkedList<String>();
         found.add("Found");
 
         List<String> globalLinks = new LinkedList<String>();
 
         for (String link : links) {
-            List<String> result = parseLinks(link, goal);
+            List<String> result = parseLinks(link);
             if (result.equals(found)) {
                 return;
             } else {
@@ -114,30 +143,58 @@ public class Query {
         System.out.println(counter);
 
         if (counter < RECURSION_LIMIT) {
-            parseLinks(globalLinks, goal, counter);
+            parseLinks(globalLinks, counter);
         }
 
     }
 
-    public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
+    public void init() {
         List<String> found = new LinkedList<String>();
         found.add("Found");
 
-        String goal = "Colorado College";
-        String start = "Mount Vernon, Iowa";
-        List<String> links = parseLinks(start, goal);
+        List<String> links = parseLinks(start);
         if (!links.equals(found)) {
-            parseLinks(links, goal, 1);
+            parseLinks(links, 1);
         }
 
         DijkstraShortestPath<String, DefaultEdge> pathFinder = new DijkstraShortestPath(g, start, goal);
         List<DefaultEdge> pathList = pathFinder.getPathEdgeList();
         ListenableGraph<String, DefaultEdge> pathGraph = graphPath(pathList);
 
-        PrintWriter out = new PrintWriter("linkDump.JSON", "UTF-8");
-        out.println(pathGraph);
-        out.close();
+        jgAdapter = new JGraphModelAdapter(pathGraph);
+        JGraph jgraph = new JGraph(jgAdapter);
+        ConnectionSet cs = new ConnectionSet();
 
+        jgraph.setAutoResizeGraph(true);
+
+        JGraphLayout layout = new JGraphTreeLayout();
+//        JGraphLayout layout = new JGraphSelfOrganizingOrganicLayout();
+        JGraphFacade facade = new JGraphFacade(jgraph);
+        layout.run(facade);
+        Map nested = facade.createNestedMap(false, false);
+
+//        GraphConstants.setLabelEnabled(jgraph, false);
+        jgraph.getGraphLayoutCache().edit(nested);
+        jgraph.validate();
+
+        JScrollPane sp = new JScrollPane(jgraph);
+        getContentPane().add(sp);
+    }
+
+    public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
+        Query applet = new Query();
+        applet.init();
+
+        JFrame frame = new JFrame();
+        frame.getContentPane().add(applet);
+        frame.setTitle("JGraphT Adapter to JGraph Demo");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.show();
+
+//        PrintWriter out = new PrintWriter("linkDump.JSON", "UTF-8");
+//        out.println(pathGraph);
+//        out.close();
     }
 
 }
