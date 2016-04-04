@@ -10,8 +10,6 @@ import com.jgraph.layout.JGraphLayout;
 import com.jgraph.layout.tree.JGraphTreeLayout;
 import java.awt.Color;
 import java.awt.Dimension;
-import java.io.FileNotFoundException;
-import java.io.UnsupportedEncodingException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -47,7 +45,7 @@ public class Query extends JApplet {
 
     static ListenableGraph g = new ListenableDirectedGraph(DefaultEdge.class);
 
-    static final int RECURSION_LIMIT = 3;
+    static final int RECURSION_LIMIT = 5;
 
     static final String goal = "Colorado College";
     static final String start = "Mount Vernon, Iowa";
@@ -58,6 +56,11 @@ public class Query extends JApplet {
     @SuppressWarnings("rawtypes")
     private JGraphModelAdapter jgAdapter;
 
+    /**
+     *
+     * @param title
+     * @return
+     */
     @SuppressWarnings({"unchecked", "rawtypes"})
 
     public static String getLinks(String title) {
@@ -75,6 +78,12 @@ public class Query extends JApplet {
         return getParse.get().toString();
     }
 
+    /**
+     * Parses through the links on the page
+     *
+     * @param title Title of the page
+     * @return List of Links
+     */
     public static List<String> parseLinks(String title) {
         String linksString = getLinks(title);
         Pattern p = Pattern.compile("(\\*\":\".*?\")", Pattern.DOTALL);
@@ -99,6 +108,12 @@ public class Query extends JApplet {
         return links;
     }
 
+    /**
+     * Generates Graph from a list of edges
+     *
+     * @param path list of edges
+     * @return Path Graph
+     */
     public static ListenableGraph<String, DefaultEdge> graphPath(List<DefaultEdge> path) {
         ListenableGraph pathGraph = new ListenableDirectedGraph(DefaultEdge.class);
 
@@ -123,6 +138,12 @@ public class Query extends JApplet {
         return pathGraph;
     }
 
+    /**
+     * parses all pages in the list of pages
+     *
+     * @param links the list of links
+     * @param counter the level on the tree
+     */
     public static void parseLinks(List<String> links, int counter) {
         List<String> found = new LinkedList<String>();
         found.add("Found");
@@ -168,12 +189,10 @@ public class Query extends JApplet {
         jgraph.setAutoResizeGraph(true);
 
         JGraphLayout layout = new JGraphTreeLayout();
-//        JGraphLayout layout = new JGraphSelfOrganizingOrganicLayout();
         JGraphFacade facade = new JGraphFacade(jgraph);
         layout.run(facade);
         Map nested = facade.createNestedMap(false, false);
 
-//        GraphConstants.setLabelEnabled(jgraph, false);
         jgraph.getGraphLayoutCache().edit(nested);
         jgraph.validate();
 
@@ -181,7 +200,12 @@ public class Query extends JApplet {
         getContentPane().add(sp);
     }
 
-    public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
+    /**
+     * Starts up the applet
+     *
+     * @param args N/A
+     */
+    public static void main(String[] args) {
         Query applet = new Query();
         applet.init();
 
@@ -192,9 +216,6 @@ public class Query extends JApplet {
         frame.pack();
         frame.show();
 
-//        PrintWriter out = new PrintWriter("linkDump.JSON", "UTF-8");
-//        out.println(pathGraph);
-//        out.close();
     }
 
 }
