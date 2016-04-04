@@ -36,6 +36,8 @@ public class Query {
 
     static ListenableGraph g = new ListenableDirectedGraph(DefaultEdge.class);
 
+    static final int RECURSION_LIMIT = 3;
+
     public static String getLinks(String title) {
         title = title.replace(" ", "_");
 
@@ -60,7 +62,7 @@ public class Query {
         List<String> links = new LinkedList<String>();
         while (m.find()) {
             String link = m.group().replace("\"", "").replace("*:", "");
-            if (!(link.contains("Template") || link.contains("Category") || g.containsVertex(link))) {
+            if (!(link.contains("Template") || link.contains("Category") || link.contains("\\u") || g.containsVertex(link))) {
                 g.addVertex(link);
                 g.addEdge(title, link);
                 if (link.equals(goal)) {
@@ -75,7 +77,7 @@ public class Query {
         return links;
     }
 
-    public static boolean parseLinks(List<String> links, String goal) {
+    public static void parseLinks(List<String> links, String goal, int counter) throws FileNotFoundException, UnsupportedEncodingException {
         List<String> found = new LinkedList<String>();
         found.add("Found");
 
@@ -84,34 +86,43 @@ public class Query {
         for (String link : links) {
             List<String> result = parseLinks(link, goal);
             if (result.equals(found)) {
-                return true;
+                return;
             } else {
                 globalLinks.addAll(result);
             }
 
         }
 
-        System.out.println(globalLinks);
-        parseLinks(globalLinks, goal);
-//        System.out.println(globalLinks);
+        counter++;
+        System.out.println(counter);
 
-        return false;
+//        try (PrintWriter out = new PrintWriter("linkDump2.JSON", "UTF-8")) {
+//            for (String link : globalLinks) {
+//                out.println(link);
+//            }
+//        }
+//        System.out.println(globalLinks);
+        if (counter < RECURSION_LIMIT) {
+            parseLinks(globalLinks, goal, counter);
+        }
 
     }
 
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
+        List<String> found = new LinkedList<String>();
+        found.add("Found");
 
-        String goal = "Achievement test";
+        String goal = "Edgeplain";
         String start = "Mount Vernon, Iowa";
         List<String> links = parseLinks(start, goal);
-        boolean result = parseLinks(links, goal);
+        if (!links.equals(found)) {
+            parseLinks(links, goal, 1);
+        }
 
         DijkstraShortestPath<String, DefaultEdge> pathFinder = new DijkstraShortestPath(g, start, goal);
         List<DefaultEdge> path = pathFinder.getPathEdgeList();
 
-//        UnidrectedGraph<String, DefaultEdge> g
         PrintWriter out = new PrintWriter("linkDump.JSON", "UTF-8");
-        System.out.println(result);
         for (Object edge : path) {
             out.println(edge);
         }
