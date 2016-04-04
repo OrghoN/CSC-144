@@ -77,7 +77,24 @@ public class Query {
         return links;
     }
 
-    public static void parseLinks(List<String> links, String goal, int counter) throws FileNotFoundException, UnsupportedEncodingException {
+    public static ListenableGraph<String, DefaultEdge> graphPath(List<DefaultEdge> path) {
+        ListenableGraph pathGraph = new ListenableDirectedGraph(DefaultEdge.class);
+
+        for (Object edge : path) {
+            String edgeString = edge.toString();
+            edgeString = edgeString.substring(1, edgeString.length() - 1);
+
+            String[] vertices = edgeString.split(":");
+
+            pathGraph.addVertex(vertices[0]);
+            pathGraph.addVertex(vertices[1]);
+
+            pathGraph.addEdge(vertices[0], vertices[1]);
+        }
+        return pathGraph;
+    }
+
+    public static void parseLinks(List<String> links, String goal, int counter) {
         List<String> found = new LinkedList<String>();
         found.add("Found");
 
@@ -96,12 +113,6 @@ public class Query {
         counter++;
         System.out.println(counter);
 
-//        try (PrintWriter out = new PrintWriter("linkDump2.JSON", "UTF-8")) {
-//            for (String link : globalLinks) {
-//                out.println(link);
-//            }
-//        }
-//        System.out.println(globalLinks);
         if (counter < RECURSION_LIMIT) {
             parseLinks(globalLinks, goal, counter);
         }
@@ -112,7 +123,7 @@ public class Query {
         List<String> found = new LinkedList<String>();
         found.add("Found");
 
-        String goal = "Edgeplain";
+        String goal = "Colorado College";
         String start = "Mount Vernon, Iowa";
         List<String> links = parseLinks(start, goal);
         if (!links.equals(found)) {
@@ -120,12 +131,11 @@ public class Query {
         }
 
         DijkstraShortestPath<String, DefaultEdge> pathFinder = new DijkstraShortestPath(g, start, goal);
-        List<DefaultEdge> path = pathFinder.getPathEdgeList();
+        List<DefaultEdge> pathList = pathFinder.getPathEdgeList();
+        ListenableGraph<String, DefaultEdge> pathGraph = graphPath(pathList);
 
         PrintWriter out = new PrintWriter("linkDump.JSON", "UTF-8");
-        for (Object edge : path) {
-            out.println(edge);
-        }
+        out.println(pathGraph);
         out.close();
 
     }
